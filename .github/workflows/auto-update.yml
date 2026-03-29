@@ -22,7 +22,7 @@ jobs:
       - name: Fetch latest election data via Claude API
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/update-data.js
+        run: node scripts/update-data.cjs
 
       - name: Check for changes
         id: changes
