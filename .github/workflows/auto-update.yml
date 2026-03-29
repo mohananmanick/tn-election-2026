@@ -1,0 +1,40 @@
+name: Auto-Update Election Data
+
+on:
+  schedule:
+    - cron: "30 0 */2 * *"
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest election data via Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/update-data.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data.js && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "TN Election Bot"
+          git config user.email "bot@tn-election-2026.app"
+          git add src/data.js
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          git commit -m "Auto-update election data ${TIMESTAMP}"
+          git push
