@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-03-31T00:00:00Z
+// Updated: 2026-04-01T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-03-31T00:00:00Z";
+export const LAST_UPDATED = "2026-04-01T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -47,14 +47,14 @@ export const ALLIANCES = {
     cmCandidate: "Edappadi K. Palaniswami",
     color: "#388E3C",
     parties: [
-      { name: "AIADMK", seats: 167, leader: "E.K. Palaniswami", color: "#388E3C" },
+      { name: "AIADMK", seats: 169, leader: "E.K. Palaniswami", color: "#388E3C" },
       { name: "BJP", seats: 27, leader: "Nainar Nagendran", color: "#FF6F00" },
       { name: "PMK", seats: 18, leader: "Anbumani Ramadoss", color: "#FFCA28" },
       { name: "AMMK", seats: 11, leader: "TTV Dhinakaran", color: "#1565C0" },
       { name: "TMC(M)", seats: 5, leader: "G.K. Vasan", color: "#5C6BC0" },
       { name: "IJK", seats: 2, leader: "T.R. Paarivendhar", color: "#8D6E63" },
-      { name: "TMMK", seats: 2, leader: "B. John Pandian", color: "#78909C" },
-      { name: "Others", seats: 2, leader: "Various", color: "#9E9E9E" },
+      { name: "TMMK", seats: 1, leader: "B. John Pandian", color: "#78909C" },
+      { name: "PBK", seats: 1, leader: "M. Jagan Moorthy", color: "#9E9E9E" },
     ],
     totalSeats: 234,
   },
@@ -109,12 +109,12 @@ export const KEY_ISSUES = [
   { issue: "Welfare Schemes", importance: 92, favorsDMK: true },
   { issue: "Corruption Allegations", importance: 88, favorsDMK: false },
   { issue: "Women's Safety", importance: 85, favorsDMK: false },
-  { issue: "Unemployment", importance: 82, favorsDMK: false },
-  { issue: "Rising Prices / Inflation", importance: 80, favorsDMK: false },
-  { issue: "State Debt Crisis", importance: 78, favorsDMK: false },
+  { issue: "Drug Menace", importance: 82, favorsDMK: false },
+  { issue: "Unemployment", importance: 80, favorsDMK: false },
+  { issue: "Rising Prices / Inflation", importance: 78, favorsDMK: false },
+  { issue: "State Debt Crisis", importance: 75, favorsDMK: false },
   { issue: "NEET / Education", importance: 72, favorsDMK: true },
   { issue: "Tamil Identity / Federalism", importance: 68, favorsDMK: true },
-  { issue: "Drug Menace", importance: 66, favorsDMK: false },
   { issue: "Unfulfilled Promises", importance: 64, favorsDMK: false },
 ];
 
@@ -134,9 +134,11 @@ export const KEY_CANDIDATES = [
   { name: "Seeman", party: "NTK", alliance: "NTK", constituency: "Thiruvottiyur", role: "NTK Chief Coordinator" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "SPA", constituency: "Kattumannarkoil (SC)", role: "VCK President" },
   { name: "Premalatha Vijayakanth", party: "DMDK", alliance: "SPA", constituency: "TBD", role: "DMDK Leader" },
-  { name: "VS Babu", party: "TVK", alliance: "TVK", constituency: "Kolathur", role: "Against MK Stalin" },
   { name: "N. Anand", party: "TVK", alliance: "TVK", constituency: "T. Nagar", role: "TVK Core Team" },
   { name: "Aadhav Arjuna", party: "TVK", alliance: "TVK", constituency: "Villivakkam", role: "TVK General Secretary" },
+  { name: "R. Arunraaj", party: "TVK", alliance: "TVK", constituency: "Gobichettipalayam", role: "TVK Leader" },
+  { name: "CTR Nirmal Kumar", party: "TVK", alliance: "TVK", constituency: "Thirupparankundram", role: "TVK Leader" },
+  { name: "K.A. Sengottaiyan", party: "TVK", alliance: "TVK", constituency: "Gobichettipalayam", role: "TVK Leader" },
 ];
 
 export const REGIONS = {
@@ -167,7 +169,9 @@ export const TIMELINE = [
   { date: "24 Mar 2026", event: "AIADMK releases manifesto; MNM gives outside support to SPA" },
   { date: "28 Mar 2026", event: "DMK releases candidate list for 164 seats" },
   { date: "29 Mar 2026", event: "TVK releases full 234 candidate list; Vijay to contest from Perambur & Trichy East" },
-  { date: "30 Mar 2026", event: "Nominations begin; PMK releases final candidate list" },
+  { date: "29 Mar 2026", event: "DMK unveils 'Superstar Manifesto' with 525 promises" },
+  { date: "30 Mar 2026", event: "Nominations begin; Vijay and Stalin file papers" },
+  { date: "1 Apr 2026", event: "MK Stalin kicks off campaign in Tiruchirappalli" },
   { date: "6 Apr 2026", event: "Last date for nominations" },
   { date: "9 Apr 2026", event: "Last date for withdrawal" },
   { date: "23 Apr 2026", event: "POLLING DAY" },
@@ -175,12 +179,12 @@ export const TIMELINE = [
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "DMK's Welfare Push", desc: "₹2,000/month women's aid (doubled from ₹1,000), Kalaignar Magalir Urimai Thogai scheme expansion, free bus for women, breakfast scheme — banking on visible welfare delivery", color: "#E53935" },
-  { title: "AIADMK Manifesto Promises", desc: "₹2,000/month for women, ₹10,000 relief/family, pension hike, free refrigerators & LPG, waiver of education & crop loans, paddy procurement at ₹3,500/quintal", color: "#388E3C" },
-  { title: "TVK's Anti-Corruption Drive", desc: "Vijay positions TVK as clean alternative, attacks DMK on 'scientific corruption,' targets youth disillusionment. Promises ₹4,000/month for graduates, ₹2,000 for diploma holders", color: "#FFC107" },
-  { title: "State Debt Crisis", desc: "Debt nearly doubled from ₹4.85L Cr (2021) to ₹10L Cr (2026). AIADMK calls it a 'debt trap.' DMK blames Centre's reduced tax devolution", color: "#FF5722" },
-  { title: "Women's Safety Concerns", desc: "Rising crimes against women became major campaign issue. Opposition attacks DMK on law & order; BJP links to drug menace", color: "#9C27B0" },
-  { title: "Unfulfilled Promises", desc: "NEET not scrapped, Old Pension not restored, education loans not waived, 2L govt vacancies unfilled, monthly billing not implemented. DMK claims 364/505 promises fulfilled", color: "#795548" },
+  { title: "DMK's 'Superstar Manifesto'", desc: "₹8,000 'Illatharasi' coupon for women, monthly aid doubled to ₹2,000, 35 lakh laptops, 50 lakh jobs, 10 lakh houses — calls it continuation of 'Dravidian model'", color: "#E53935" },
+  { title: "AIADMK's 297 Promises", desc: "₹2,000/month for women, ₹10,000 relief/family, free refrigerators & LPG, waiver of education & crop loans, paddy procurement at ₹3,500/quintal", color: "#388E3C" },
+  { title: "TVK's Anti-Drug Campaign", desc: "Vijay promises 'anti-drug protection zones' in schools/colleges, ₹4,000/month for graduates, ₹25 lakh interest-free loans for entrepreneurs, positions as 'two-way fight' vs DMK", color: "#FFC107" },
+  { title: "State Debt Crisis", desc: "Debt nearly doubled from ₹4.85L Cr (2021) to ₹10L Cr (2026). Opposition attacks DMK's 'freebie war' amid fiscal concerns", color: "#FF5722" },
+  { title: "Campaign Kickoff", desc: "Stalin begins from Tiruchirappalli promising 20 lakh pumpsets, paddy at ₹3,500/quintal. Vijay faces traffic chaos during Perambur launch", color: "#9C27B0" },
+  { title: "Women-Centric Politics", desc: "All parties target women voters (majority in TN). DMK banks on direct cash transfers, AIADMK promises freebies, TVK focuses on safety issues", color: "#795548" },
 ];
 
 export const SATISFACTION_DATA = [
