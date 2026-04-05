@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-03T00:00:00Z
+// Updated: 2026-04-05T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-03T00:00:00Z";
+export const LAST_UPDATED = "2026-04-05T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -27,7 +27,7 @@ export const ALLIANCES = {
     color: "#E53935",
     parties: [
       { name: "DMK", seats: 164, leader: "M.K. Stalin", color: "#E53935" },
-      { name: "INC", seats: 28, leader: "Girish Chodankar (in-charge)", color: "#19AAED" },
+      { name: "INC", seats: 28, leader: "K Selvaperunthagai", color: "#19AAED" },
       { name: "DMDK", seats: 10, leader: "Premalatha Vijayakanth", color: "#FF9800" },
       { name: "VCK", seats: 8, leader: "Thol. Thirumavalavan", color: "#7B1FA2" },
       { name: "CPI", seats: 5, leader: "D. Raja", color: "#C62828" },
@@ -47,23 +47,23 @@ export const ALLIANCES = {
     cmCandidate: "Edappadi K. Palaniswami",
     color: "#388E3C",
     parties: [
-      { name: "AIADMK", seats: 178, leader: "E.K. Palaniswami", color: "#388E3C" },
+      { name: "AIADMK", seats: 169, leader: "E.K. Palaniswami", color: "#388E3C" },
       { name: "BJP", seats: 27, leader: "Nainar Nagendran", color: "#FF6F00" },
       { name: "PMK", seats: 18, leader: "Anbumani Ramadoss", color: "#FFCA28" },
       { name: "AMMK", seats: 11, leader: "TTV Dhinakaran", color: "#1565C0" },
-      { name: "TMC(M)", seats: 3, leader: "G.K. Vasan", color: "#5C6BC0" },
+      { name: "TMC(M)", seats: 5, leader: "G.K. Vasan", color: "#5C6BC0" },
       { name: "IJK", seats: 2, leader: "T.R. Paarivendhar", color: "#8D6E63" },
       { name: "TMMK", seats: 1, leader: "B. John Pandian", color: "#78909C" },
-      { name: "Others", seats: 4, leader: "Various", color: "#9E9E9E" },
+      { name: "PB", seats: 1, leader: "A. Krishnasamy", color: "#607D8B" },
     ],
     totalSeats: 234,
   },
   TVK: {
     name: "Tamilaga Vettri Kazhagam (TVK)",
     leader: "TVK",
-    cmCandidate: "Vijay",
+    cmCandidate: "C. Joseph Vijay",
     color: "#FFC107",
-    parties: [{ name: "TVK", seats: 234, leader: "Vijay", color: "#FFC107" }],
+    parties: [{ name: "TVK", seats: 234, leader: "C. Joseph Vijay", color: "#FFC107" }],
     totalSeats: 234,
   },
   NTK: {
@@ -78,25 +78,25 @@ export const ALLIANCES = {
 
 export const OPINION_POLLS = [
   { source: "Lok Poll", date: "Apr 2026", spa: { min: 181, max: 189 }, nda: { min: 38, max: 42 }, tvk: { min: 8, max: 10 }, ntk: { min: 0, max: 0 } },
+  { source: "Poll Tracker", date: "Apr 2026", spa: { min: 172, max: 178 }, nda: { min: 46, max: 52 }, tvk: { min: 6, max: 12 }, ntk: { min: 0, max: 2 } },
   { source: "Vote Vibe / News18", date: "Mar 2026", spa: { min: 113, max: 123 }, nda: { min: 106, max: 116 }, tvk: { min: 2, max: 8 }, ntk: { min: 0, max: 3 } },
   { source: "Matrize", date: "Mar 2026", spa: { min: 104, max: 114 }, nda: { min: 114, max: 127 }, tvk: { min: 6, max: 12 }, ntk: { min: 1, max: 6 } },
   { source: "Parawheel", date: "Mar 2026", spa: { min: 95, max: 110 }, nda: { min: 85, max: 100 }, tvk: { min: 25, max: 40 }, ntk: { min: 3, max: 8 } },
-  { source: "Shining India Survey", date: "Mar 2026", spa: { min: 100, max: 115 }, nda: { min: 110, max: 125 }, tvk: { min: 5, max: 15 }, ntk: { min: 1, max: 5 } },
 ];
 
 export const VOTE_SHARE_POLLS = [
   { source: "Lok Poll", spa: 40.1, nda: 29.0, tvk: 23.9, ntk: 4.9, undecided: 2.1 },
+  { source: "Poll Tracker", spa: 42.7, nda: 30.3, tvk: 19.2, ntk: 5.1, undecided: 2.8 },
   { source: "Shining India", spa: 36.1, nda: 37.5, tvk: 16.3, ntk: 3.2, undecided: 6.9 },
   { source: "Parawheel", spa: 25.3, nda: 22.8, tvk: 24.7, ntk: 8.0, undecided: 19.2 },
   { source: "DMK Internal (TVK solo)", spa: 45, nda: 22, tvk: 23, ntk: 5, undecided: 5 },
-  { source: "TVK Internal", spa: 30, nda: 22, tvk: 30, ntk: 8, undecided: 10 },
 ];
 
 export const CM_PREFERENCE = [
   { name: "M.K. Stalin", party: "DMK", pct: 41.0, color: "#E53935" },
-  { name: "E.K. Palaniswami", party: "AIADMK", pct: 37.5, color: "#388E3C" },
-  { name: "Vijay", party: "TVK", pct: 14.7, color: "#FFC107" },
-  { name: "Others", party: "Others", pct: 6.8, color: "#9E9E9E" },
+  { name: "C. Joseph Vijay", party: "TVK", pct: 27.1, color: "#FFC107" },
+  { name: "E.K. Palaniswami", party: "AIADMK", pct: 24.1, color: "#388E3C" },
+  { name: "Others", party: "Others", pct: 7.8, color: "#9E9E9E" },
 ];
 
 export const RESULTS_2021 = {
@@ -108,6 +108,7 @@ export const RESULTS_2021 = {
 
 export const KEY_ISSUES = [
   { issue: "Welfare Schemes", importance: 92, favorsDMK: true },
+  { issue: "Law and Order", importance: 90, favorsDMK: false },
   { issue: "Corruption Allegations", importance: 88, favorsDMK: false },
   { issue: "Women's Safety", importance: 85, favorsDMK: false },
   { issue: "Drug Menace", importance: 84, favorsDMK: false },
@@ -116,29 +117,28 @@ export const KEY_ISSUES = [
   { issue: "State Debt Crisis", importance: 76, favorsDMK: false },
   { issue: "NEET / Education", importance: 72, favorsDMK: true },
   { issue: "Tamil Identity / Federalism", importance: 68, favorsDMK: true },
-  { issue: "Unfulfilled Promises", importance: 64, favorsDMK: false },
 ];
 
 export const KEY_CANDIDATES = [
   { name: "M.K. Stalin", party: "DMK", alliance: "SPA", constituency: "Kolathur", role: "CM / DMK President" },
   { name: "Udhayanidhi Stalin", party: "DMK", alliance: "SPA", constituency: "Chepauk-Thiruvallikeni", role: "Deputy CM" },
   { name: "V. Senthil Balaji", party: "DMK", alliance: "SPA", constituency: "Coimbatore South", role: "DMK Leader" },
-  { name: "O. Panneerselvam", party: "DMK", alliance: "SPA", constituency: "Bodinayakkanur", role: "Former CM (joined DMK)" },
+  { name: "O. Panneerselvam", party: "DMK", alliance: "SPA", constituency: "Bodinayakkanur", role: "Former CM (joined DMK Feb 2026)" },
   { name: "Ma. Subramanian", party: "DMK", alliance: "SPA", constituency: "Saidapet", role: "Health Minister" },
   { name: "E.V. Velu", party: "DMK", alliance: "SPA", constituency: "Mylapore", role: "Highways Minister" },
   { name: "E.K. Palaniswami", party: "AIADMK", alliance: "NDA", constituency: "Edappadi", role: "AIADMK Gen Sec / CM Candidate" },
-  { name: "Tamilisai Soundararajan", party: "BJP", alliance: "NDA", constituency: "Mylapore", role: "BJP Leader" },
+  { name: "Tamilisai Soundararajan", party: "BJP", alliance: "NDA", constituency: "Mylapore", role: "Former Governor" },
   { name: "Nainar Nagendran", party: "BJP", alliance: "NDA", constituency: "Sattur", role: "BJP TN Chief" },
+  { name: "L. Murugan", party: "BJP", alliance: "NDA", constituency: "Avanashi", role: "Union Minister" },
+  { name: "Vanathi Srinivasan", party: "BJP", alliance: "NDA", constituency: "Coimbatore North", role: "BJP Mahila Morcha President" },
   { name: "Anbumani Ramadoss", party: "PMK", alliance: "NDA", constituency: "Pennagaram", role: "PMK President" },
   { name: "TTV Dhinakaran", party: "AMMK", alliance: "NDA", constituency: "Kovilpatti", role: "AMMK Gen Sec" },
-  { name: "Vijay", party: "TVK", alliance: "TVK", constituency: "Perambur & Trichy East", role: "TVK President / CM Candidate" },
+  { name: "C. Joseph Vijay", party: "TVK", alliance: "TVK", constituency: "Perambur & Tiruchirappalli East", role: "TVK President / CM Candidate" },
   { name: "Seeman", party: "NTK", alliance: "NTK", constituency: "Thiruvottiyur", role: "NTK Chief Coordinator" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "SPA", constituency: "Kattumannarkoil (SC)", role: "VCK President" },
   { name: "Premalatha Vijayakanth", party: "DMDK", alliance: "SPA", constituency: "TBD", role: "DMDK Leader" },
-  { name: "N. Anand", party: "TVK", alliance: "TVK", constituency: "T. Nagar", role: "TVK Core Team" },
+  { name: "N. Anand", party: "TVK", alliance: "TVK", constituency: "Thiyagarayanagar", role: "TVK Core Team" },
   { name: "Aadhav Arjuna", party: "TVK", alliance: "TVK", constituency: "Villivakkam", role: "TVK General Secretary" },
-  { name: "R. Arunraaj", party: "TVK", alliance: "TVK", constituency: "Gobichettipalayam", role: "TVK Leader" },
-  { name: "CTR Nirmal Kumar", party: "TVK", alliance: "TVK", constituency: "Thirupparankundram", role: "TVK Leader" },
   { name: "K.A. Sengottaiyan", party: "TVK", alliance: "TVK", constituency: "Gobichettipalayam", role: "TVK Leader (ex-AIADMK)" },
 ];
 
@@ -163,7 +163,6 @@ export const TIMELINE = [
   { date: "Jul 2025", event: "AIADMK campaign launch: 'Makkalai Kaappom'" },
   { date: "Sep 2025", event: "TVK Karur rally stampede — 41 dead" },
   { date: "Jan 2026", event: "PMK & AMMK join AIADMK-led NDA" },
-  { date: "Feb 2026", event: "DMDK joins DMK alliance; NTK releases 234 candidates" },
   { date: "19 Feb 2026", event: "DMDK joins DMK alliance" },
   { date: "27 Feb 2026", event: "O. Panneerselvam joins DMK" },
   { date: "15 Mar 2026", event: "ECI announces election schedule" },
@@ -176,6 +175,8 @@ export const TIMELINE = [
   { date: "30 Mar 2026", event: "Nominations begin; Vijay and Stalin file papers" },
   { date: "1 Apr 2026", event: "MK Stalin kicks off campaign in Tiruchirappalli" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
+  { date: "3 Apr 2026", event: "BJP releases 27 candidate list, Congress candidate list released" },
+  { date: "5 Apr 2026", event: "Lok Poll survey projects DMK landslide (181-189 seats)" },
   { date: "6 Apr 2026", event: "Last date for nominations" },
   { date: "9 Apr 2026", event: "Last date for withdrawal" },
   { date: "23 Apr 2026", event: "POLLING DAY" },
@@ -186,17 +187,21 @@ export const CAMPAIGN_NARRATIVES = [
   { title: "DMK's 'Superstar Manifesto'", desc: "₹8,000 'Illatharasi' coupon for women, monthly aid doubled to ₹2,000, 35 lakh laptops, 50 lakh jobs, 10 lakh houses — calls it continuation of 'Dravidian model 2.0'", color: "#E53935" },
   { title: "AIADMK's 297 Promises", desc: "₹2,000/month for women, ₹10,000 relief/family, free refrigerators & LPG, waiver of education & crop loans, paddy procurement at ₹3,500/quintal", color: "#388E3C" },
   { title: "TVK's Anti-Drug Campaign", desc: "Vijay promises 'anti-drug protection zones' in schools/colleges, ₹4,000/month for graduates, ₹2,000 for diploma holders, ₹25 lakh interest-free loans for entrepreneurs", color: "#FFC107" },
-  { title: "State Debt Crisis", desc: "Debt nearly doubled from ₹4.85L Cr (2021) to ₹10L Cr (2026). Opposition attacks DMK's 'freebie war' amid fiscal concerns", color: "#FF5722" },
-  { title: "Campaign Kickoff", desc: "Stalin begins from Tiruchirappalli promising 20 lakh pumpsets, paddy at ₹3,500/quintal. Vijay files dual nominations from Perambur & Trichy East", color: "#9C27B0" },
-  { title: "Women-Centric Politics", desc: "All parties target women voters (majority in TN). DMK banks on direct cash transfers, AIADMK promises freebies, TVK focuses on safety issues", color: "#795548" },
-  { title: "Lok Poll Survey Impact", desc: "Latest survey projects massive DMK win (181-189 seats), AIADMK decline (38-42 seats), TVK breakthrough (8-10 seats) with 23.9% vote share", color: "#4CAF50" },
+  { title: "Lok Poll Shock", desc: "Latest survey projects massive DMK win (181-189 seats), AIADMK collapse (38-42 seats), TVK breakthrough with 23.9% vote share but limited seats (8-10)", color: "#4CAF50" },
+  { title: "Vijay's Dual Battle", desc: "TVK leader contests from both Perambur (Chennai) and Trichy East, challenging DMK in urban stronghold and rural Cauvery delta simultaneously", color: "#FFC107" },
+  { title: "OPS Joins DMK", desc: "Former CM O. Panneerselvam switches to DMK in February 2026, likely to contest from Bodinayakkanur seat, giving major boost to ruling alliance", color: "#E53935" },
+  { title: "Performance vs Promises", desc: "Stalin campaigns on 5-year governance record, investment inflow and peace. Opposition attacks on law & order, debt crisis, and unfulfilled promises create counter-narrative", color: "#9C27B0" },
 ];
 
 export const SATISFACTION_DATA = [
-  { label: "Satisfied with DMK Govt", pct: 47, color: "#E53935" },
-  { label: "High Anti-Incumbency", pct: 47, color: "#FF5722" },
+  { label: "Stalin Performance - Excellent", pct: 23, color: "#E53935" },
+  { label: "Stalin Performance - Average", pct: 40, color: "#FF9800" },
+  { label: "Stalin Performance - Poor", pct: 37, color: "#F44336" },
+  { label: "DMK Govt - Excellent", pct: 20, color: "#E53935" },
+  { label: "DMK Govt - Average", pct: 39, color: "#FF9800" },
+  { label: "DMK Govt - Poor", pct: 41, color: "#F44336" },
+  { label: "Law & Order - Poor", pct: 59, color: "#F44336" },
+  { label: "Law & Order - Average", pct: 32, color: "#FF9800" },
   { label: "Want DMK to Continue", pct: 43, color: "#E53935" },
   { label: "Want Change", pct: 50, color: "#388E3C" },
-  { label: "Two-way Contest View", pct: 52, color: "#9E9E9E" },
-  { label: "Three-way Contest View", pct: 21, color: "#FFC107" },
 ];
