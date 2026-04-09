@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-07T00:00:00Z
+// Updated: 2026-04-09T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-07T00:00:00Z";
+export const LAST_UPDATED = "2026-04-09T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -77,27 +77,27 @@ export const ALLIANCES = {
 };
 
 export const OPINION_POLLS = [
-  { source: "Shining India Survey", date: "Apr 2026", spa: { min: 80, max: 90 }, nda: { min: 95, max: 105 }, tvk: { min: 35, max: 45 }, ntk: { min: 6, max: 10 } },
+  { source: "Lok Poll", date: "Apr 2026", spa: { min: 181, max: 189 }, nda: { min: 38, max: 42 }, tvk: { min: 8, max: 10 }, ntk: { min: 0, max: 0 } },
+  { source: "Matrize Opinion Poll", date: "Apr 2026", spa: { min: 102, max: 115 }, nda: { min: 107, max: 120 }, tvk: { min: 5, max: 12 }, ntk: { min: 1, max: 6 } },
+  { source: "Inside Elections Survey", date: "Mar 2026", spa: { min: 159, max: 165 }, nda: { min: 64, max: 70 }, tvk: { min: 4, max: 6 }, ntk: { min: 0, max: 0 } },
   { source: "Vote Vibe / News18", date: "Mar 2026", spa: { min: 113, max: 123 }, nda: { min: 106, max: 116 }, tvk: { min: 2, max: 8 }, ntk: { min: 0, max: 3 } },
-  { source: "Opinions & Ratings", date: "Apr 2026", spa: { min: 85, max: 95 }, nda: { min: 88, max: 98 }, tvk: { min: 42, max: 52 }, ntk: { min: 5, max: 9 } },
-  { source: "IPDS (Loyola Alumni)", date: "Jan 2026", spa: { min: 95, max: 110 }, nda: { min: 70, max: 85 }, tvk: { min: 45, max: 55 }, ntk: { min: 8, max: 12 } },
   { source: "Parawheel", date: "Mar 2026", spa: { min: 95, max: 110 }, nda: { min: 85, max: 100 }, tvk: { min: 25, max: 40 }, ntk: { min: 3, max: 8 } },
 ];
 
 export const VOTE_SHARE_POLLS = [
-  { source: "Shining India", spa: 36.1, nda: 37.5, tvk: 16.3, ntk: 3.2, undecided: 6.9 },
-  { source: "Opinions & Ratings", spa: 32.8, nda: 35.2, tvk: 21.7, ntk: 6.1, undecided: 4.2 },
+  { source: "Lok Poll", spa: 40.1, nda: 29.0, tvk: 23.9, ntk: 4.9, undecided: 2.1 },
+  { source: "Matrize Opinion Poll", spa: 38.0, nda: 40.0, tvk: 16.0, ntk: 4.0, undecided: 2.0 },
+  { source: "Inside Elections Survey", spa: 44.0, nda: 33.0, tvk: 18.0, ntk: 3.0, undecided: 2.0 },
   { source: "Vote Vibe / News18", spa: 42.3, nda: 38.1, tvk: 11.5, ntk: 4.8, undecided: 3.3 },
-  { source: "IPDS (Loyola Alumni)", spa: 38.5, nda: 28.3, tvk: 24.2, ntk: 5.7, undecided: 3.3 },
-  { source: "Parawheel", spa: 25.3, nda: 22.8, tvk: 24.7, ntk: 8.0, undecided: 19.2 },
+  { source: "Parawheel", spa: 41.5, nda: 36.2, tvk: 15.7, ntk: 4.1, undecided: 2.5 },
 ];
 
 export const CM_PREFERENCE = [
-  { name: "M.K. Stalin", party: "DMK", pct: 33.3, color: "#E53935" },
-  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 29.8, color: "#388E3C" },
-  { name: "C. Joseph Vijay", party: "TVK", pct: 23.2, color: "#FFC107" },
-  { name: "K. Annamalai", party: "BJP", pct: 6.2, color: "#FF6F00" },
-  { name: "Others", party: "Others", pct: 7.5, color: "#9E9E9E" },
+  { name: "M.K. Stalin", party: "DMK", pct: 41.0, color: "#E53935" },
+  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 24.1, color: "#388E3C" },
+  { name: "C. Joseph Vijay", party: "TVK", pct: 27.1, color: "#FFC107" },
+  { name: "K. Annamalai", party: "BJP", pct: 3.0, color: "#FF6F00" },
+  { name: "Others", party: "Others", pct: 4.8, color: "#9E9E9E" },
 ];
 
 export const RESULTS_2021 = {
@@ -110,11 +110,11 @@ export const RESULTS_2021 = {
 export const KEY_ISSUES = [
   { issue: "Law and Order", importance: 92, favorsDMK: false },
   { issue: "Corruption Allegations", importance: 90, favorsDMK: false },
-  { issue: "Drug Menace", importance: 88, favorsDMK: false },
+  { issue: "Unemployment", importance: 88, favorsDMK: false },
   { issue: "Women's Safety", importance: 87, favorsDMK: false },
-  { issue: "Unemployment", importance: 85, favorsDMK: false },
-  { issue: "Rising Prices / Inflation", importance: 83, favorsDMK: false },
-  { issue: "State Debt Crisis", importance: 80, favorsDMK: false },
+  { issue: "Rising Prices / Inflation", importance: 85, favorsDMK: false },
+  { issue: "State Debt Crisis", importance: 83, favorsDMK: false },
+  { issue: "Drug Menace", importance: 80, favorsDMK: false },
   { issue: "Welfare Schemes", importance: 78, favorsDMK: true },
   { issue: "NEET / Education", importance: 75, favorsDMK: true },
   { issue: "Tamil Identity / Federalism", importance: 72, favorsDMK: true },
@@ -148,9 +148,9 @@ export const REGIONS = {
   "North Tamil Nadu": { seats: 38, dmk2021: 30, aiadmk2021: 8, swing: "DMK leaning, anti-incumbency visible", tvkThreat: "High" },
   "Western Tamil Nadu": { seats: 42, dmk2021: 24, aiadmk2021: 18, swing: "Competitive three-way", tvkThreat: "Medium" },
   "Central Tamil Nadu": { seats: 32, dmk2021: 22, aiadmk2021: 10, swing: "DMK under pressure", tvkThreat: "High" },
-  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK stronghold tested", tvkThreat: "High" },
+  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK dominance per new polls", tvkThreat: "Medium" },
   "Southern Tamil Nadu": { seats: 48, dmk2021: 28, aiadmk2021: 20, swing: "Competitive", tvkThreat: "Low" },
-  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "AIADMK-NDA advantage", tvkThreat: "Low" },
+  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "DMK surprising lead per polls", tvkThreat: "Low" },
 };
 
 export const TIMELINE = [
@@ -177,33 +177,34 @@ export const TIMELINE = [
   { date: "1 Apr 2026", event: "MK Stalin kicks off campaign in Tiruchirappalli" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
   { date: "3 Apr 2026", event: "BJP releases 27 candidate list, Congress candidate list released" },
-  { date: "5 Apr 2026", event: "Multiple polls show close three-way race, fragmented mandate likely" },
+  { date: "5 Apr 2026", event: "Multiple polls show fragmented mandate, close three-way race" },
   { date: "6 Apr 2026", event: "Last date for nominations - 3,430 nominations filed across 234 seats" },
-  { date: "7 Apr 2026", event: "Scrutiny of nominations begins" },
+  { date: "7 Apr 2026", event: "Scrutiny of nominations begins; New Lok Poll shows DMK landslide prediction" },
+  { date: "8 Apr 2026", event: "Matrize poll shows NDA slight edge; Inside Elections predicts DMK retention" },
   { date: "9 Apr 2026", event: "Last date for withdrawal" },
   { date: "23 Apr 2026", event: "POLLING DAY" },
   { date: "4 May 2026", event: "RESULTS DAY" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "DMK's 'Superstar Manifesto'", desc: "₹8,000 'Illatharasi' coupon for women, ₹2,000 monthly aid (doubled from ₹1,000), 35 lakh laptops, 50 lakh jobs, 10 lakh houses, health insurance up to ₹10 lakh — 525+ promises for 'Dravidian Model 2.0'", color: "#E53935" },
-  { title: "NDA's United Front", desc: "AIADMK's 297 promises include ₹2,000/month for women, ₹10,000 relief/family, BJP gets 27 seats (up from 20 in 2021), PMK 18 seats, AMMK 11 seats — smooth negotiations completed quickly", color: "#388E3C" },
-  { title: "Vijay's Dual Contest Strategy", desc: "TVK leader contests from both Perambur (Chennai) and Trichy East, positions as 'TVK vs DMK' battle, promises drug-free TN, ₹4,000/month for unemployed graduates, ₹20 lakh collateral-free loans", color: "#FFC107" },
-  { title: "Fragmented Opinion Polls", desc: "Multiple surveys show close three-way race: Stalin 33.3%, EPS 29.8%, Vijay 23.2% in CM preference. Vote share varies widely - some show NDA ahead, others DMK leading, TVK emerging as kingmaker", color: "#9C27B0" },
-  { title: "Anti-Incumbency vs Performance", desc: "59% say law & order is poor, 50% want change vs 43% want DMK to continue. Stalin performance: 23% excellent, 40% average, 37% poor. Corruption cases against ministers fuel discontent", color: "#FF5722" },
-  { title: "OPS Defection Impact", desc: "Former CM O. Panneerselvam's February switch to DMK from AIADMK creates major boost for ruling alliance, likely contesting Bodinayakkanur, signals AIADMK's internal weaknesses", color: "#E53935" },
-  { title: "Youth & Urban Shift", desc: "41% of youth voters prefer TVK in some polls, urban areas show fragmented preferences. Vijay ranks first among young leaders attracting new voters, threatens both DMK and AIADMK vote banks", color: "#FFC107" },
+  { title: "DMK's 'Superstar Manifesto 2.0'", desc: "₹8,000 'Illatharasi' coupon for women, ₹2,000 monthly aid (doubled from ₹1,000), 35 lakh laptops, 50 lakh jobs, 10 lakh houses, health insurance up to ₹10 lakh — 525+ promises for 'Dravidian Model 2.0'", color: "#E53935" },
+  { title: "AIADMK's 297 Promise Blitz", desc: "₹2,000/month for women under 'Kula Vilakku' scheme, ₹10,000 relief/family, free refrigerators, 3 LPG cylinders/year, MGNREGA 150 days, student loan waivers — comprehensive welfare package", color: "#388E3C" },
+  { title: "TVK's Youth Revolution", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise — targeting first-time voters aggressively", color: "#FFC107" },
+  { title: "Highly Fragmented Polls", desc: "Lok Poll shows DMK landslide (181-189 seats), Matrize gives NDA edge (107-120), Inside Elections predicts DMK retention (159-165). CM preference: Stalin 41%, Vijay 27.1%, EPS 24.1%", color: "#9C27B0" },
+  { title: "Anti-Incumbency vs Welfare Record", desc: "55% want DMK to continue vs 25% want change per Inside Elections. Key issues: Law & order (92% importance), corruption (90%), unemployment (88%) hurting DMK", color: "#FF5722" },
+  { title: "OPS Defection Boosts DMK", desc: "Former CM O. Panneerselvam's February switch to DMK from AIADMK creates major boost for ruling alliance, contesting Bodinayakkanur, signals AIADMK's internal weaknesses", color: "#E53935" },
+  { title: "Freebie War Intensifies", desc: "All three major parties escalating welfare promises - DMK's ₹8,000 coupons vs AIADMK's free refrigerators vs TVK's ₹4,000 unemployment aid. Fiscal concerns mount with ₹10 lakh crore state debt", color: "#9E9E9E" },
 ];
 
 export const SATISFACTION_DATA = [
-  { label: "Modi Performance - Excellent", pct: 40, color: "#FF6F00" },
-  { label: "Stalin Performance - Excellent", pct: 23, color: "#E53935" },
-  { label: "Stalin Performance - Average", pct: 40, color: "#FF9800" },
-  { label: "Stalin Performance - Poor", pct: 37, color: "#F44336" },
-  { label: "DMK Govt - Satisfied", pct: 49, color: "#E53935" },
-  { label: "DMK Govt - Dissatisfied", pct: 25, color: "#F44336" },
-  { label: "Law & Order - Poor", pct: 59, color: "#F44336" },
-  { label: "Want DMK to Continue", pct: 43, color: "#E53935" },
-  { label: "Want Change", pct: 50, color: "#388E3C" },
-  { label: "Undecided Voters", pct: 7, color: "#9E9E9E" },
+  { label: "DMK Govt Performance - Very Good", pct: 30, color: "#E53935" },
+  { label: "DMK Govt Performance - Good", pct: 20, color: "#FF9800" },
+  { label: "DMK Govt Performance - Average", pct: 25, color: "#FFC107" },
+  { label: "DMK Govt Performance - Bad", pct: 15, color: "#F44336" },
+  { label: "DMK Govt Performance - Very Bad", pct: 10, color: "#B71C1C" },
+  { label: "Want DMK to Continue", pct: 55, color: "#E53935" },
+  { label: "Want Change", pct: 25, color: "#388E3C" },
+  { label: "Law & Order - Poor (Major Issue)", pct: 59, color: "#F44336" },
+  { label: "Corruption Concerns", pct: 90, color: "#F44336" },
+  { label: "Undecided Voters", pct: 20, color: "#9E9E9E" },
 ];
