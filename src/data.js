@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-09T00:00:00Z
+// Updated: 2026-04-15T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-09T00:00:00Z";
+export const LAST_UPDATED = "2026-04-15T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -79,9 +79,9 @@ export const ALLIANCES = {
 export const OPINION_POLLS = [
   { source: "Lok Poll", date: "Apr 2026", spa: { min: 181, max: 189 }, nda: { min: 38, max: 42 }, tvk: { min: 8, max: 10 }, ntk: { min: 0, max: 0 } },
   { source: "Matrize Opinion Poll", date: "Apr 2026", spa: { min: 102, max: 115 }, nda: { min: 107, max: 120 }, tvk: { min: 5, max: 12 }, ntk: { min: 1, max: 6 } },
-  { source: "Inside Elections Survey", date: "Mar 2026", spa: { min: 159, max: 165 }, nda: { min: 64, max: 70 }, tvk: { min: 4, max: 6 }, ntk: { min: 0, max: 0 } },
+  { source: "Inside Elections Survey", date: "Apr 2026", spa: { min: 159, max: 165 }, nda: { min: 64, max: 70 }, tvk: { min: 4, max: 6 }, ntk: { min: 0, max: 0 } },
   { source: "Vote Vibe / News18", date: "Mar 2026", spa: { min: 113, max: 123 }, nda: { min: 106, max: 116 }, tvk: { min: 2, max: 8 }, ntk: { min: 0, max: 3 } },
-  { source: "Parawheel", date: "Mar 2026", spa: { min: 95, max: 110 }, nda: { min: 85, max: 100 }, tvk: { min: 25, max: 40 }, ntk: { min: 3, max: 8 } },
+  { source: "Shining India Survey", date: "Apr 2026", spa: { min: 85, max: 105 }, nda: { min: 95, max: 115 }, tvk: { min: 20, max: 30 }, ntk: { min: 3, max: 7 } },
 ];
 
 export const VOTE_SHARE_POLLS = [
@@ -89,15 +89,15 @@ export const VOTE_SHARE_POLLS = [
   { source: "Matrize Opinion Poll", spa: 38.0, nda: 40.0, tvk: 16.0, ntk: 4.0, undecided: 2.0 },
   { source: "Inside Elections Survey", spa: 44.0, nda: 33.0, tvk: 18.0, ntk: 3.0, undecided: 2.0 },
   { source: "Vote Vibe / News18", spa: 42.3, nda: 38.1, tvk: 11.5, ntk: 4.8, undecided: 3.3 },
-  { source: "Parawheel", spa: 41.5, nda: 36.2, tvk: 15.7, ntk: 4.1, undecided: 2.5 },
+  { source: "Shining India Survey", spa: 36.1, nda: 37.5, tvk: 16.3, ntk: 3.2, undecided: 6.9 },
 ];
 
 export const CM_PREFERENCE = [
   { name: "M.K. Stalin", party: "DMK", pct: 41.0, color: "#E53935" },
-  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 24.1, color: "#388E3C" },
-  { name: "C. Joseph Vijay", party: "TVK", pct: 27.1, color: "#FFC107" },
-  { name: "K. Annamalai", party: "BJP", pct: 3.0, color: "#FF6F00" },
-  { name: "Others", party: "Others", pct: 4.8, color: "#9E9E9E" },
+  { name: "C. Joseph Vijay", party: "TVK", pct: 25.1, color: "#FFC107" },
+  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 26.5, color: "#388E3C" },
+  { name: "K. Annamalai", party: "BJP", pct: 2.4, color: "#FF6F00" },
+  { name: "Others", party: "Others", pct: 5.0, color: "#9E9E9E" },
 ];
 
 export const RESULTS_2021 = {
@@ -144,13 +144,13 @@ export const KEY_CANDIDATES = [
 ];
 
 export const REGIONS = {
-  "Chennai": { seats: 16, dmk2021: 16, aiadmk2021: 0, swing: "DMK stronghold, TVK challenging", tvkThreat: "High" },
-  "North Tamil Nadu": { seats: 38, dmk2021: 30, aiadmk2021: 8, swing: "DMK leaning, anti-incumbency visible", tvkThreat: "High" },
-  "Western Tamil Nadu": { seats: 42, dmk2021: 24, aiadmk2021: 18, swing: "Competitive three-way", tvkThreat: "Medium" },
-  "Central Tamil Nadu": { seats: 32, dmk2021: 22, aiadmk2021: 10, swing: "DMK under pressure", tvkThreat: "High" },
-  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK dominance per new polls", tvkThreat: "Medium" },
-  "Southern Tamil Nadu": { seats: 48, dmk2021: 28, aiadmk2021: 20, swing: "Competitive", tvkThreat: "Low" },
-  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "DMK surprising lead per polls", tvkThreat: "Low" },
+  "Chennai": { seats: 16, dmk2021: 16, aiadmk2021: 0, swing: "DMK stronghold, TVK making inroads", tvkThreat: "High" },
+  "North Tamil Nadu": { seats: 38, dmk2021: 30, aiadmk2021: 8, swing: "DMK projected 53-56 seats per Lok Poll", tvkThreat: "Medium" },
+  "Western Tamil Nadu": { seats: 42, dmk2021: 24, aiadmk2021: 18, swing: "Shocking DMK surge per polls - 44-46 seats", tvkThreat: "Low" },
+  "Central Tamil Nadu": { seats: 32, dmk2021: 22, aiadmk2021: 10, swing: "DMK dominance continues per Delta zone projections", tvkThreat: "Medium" },
+  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK projected 39-40 seats", tvkThreat: "Low" },
+  "Southern Tamil Nadu": { seats: 48, dmk2021: 28, aiadmk2021: 20, swing: "DMK projected 45-47 seats", tvkThreat: "Medium" },
+  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "Major upset - DMK leading in traditional AIADMK bastion", tvkThreat: "Low" },
 };
 
 export const TIMELINE = [
@@ -172,28 +172,28 @@ export const TIMELINE = [
   { date: "23 Mar 2026", event: "NDA finalizes seat-sharing: AIADMK 169, BJP 27, PMK 18, AMMK 11" },
   { date: "24 Mar 2026", event: "AIADMK releases manifesto with 297 promises; MNM gives outside support to SPA" },
   { date: "28 Mar 2026", event: "DMK releases candidate list for 164 seats" },
-  { date: "29 Mar 2026", event: "TVK releases full 234 candidate list; DMK unveils 'Superstar Manifesto' with 525+ promises" },
-  { date: "30 Mar 2026", event: "Nominations begin; Vijay and Stalin file papers from their first constituencies" },
+  { date: "29 Mar 2026", event: "TVK releases full 234 candidate list; DMK unveils manifesto" },
+  { date: "30 Mar 2026", event: "Nominations begin; Vijay and Stalin file papers from their constituencies" },
   { date: "1 Apr 2026", event: "MK Stalin kicks off campaign in Tiruchirappalli" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
-  { date: "3 Apr 2026", event: "BJP releases 27 candidate list, Congress candidate list released" },
-  { date: "5 Apr 2026", event: "Multiple polls show fragmented mandate, close three-way race" },
+  { date: "3 Apr 2026", event: "BJP and Congress release candidate lists" },
   { date: "6 Apr 2026", event: "Last date for nominations - 3,430 nominations filed across 234 seats" },
-  { date: "7 Apr 2026", event: "Scrutiny of nominations begins; New Lok Poll shows DMK landslide prediction" },
+  { date: "7 Apr 2026", event: "Scrutiny of nominations; Lok Poll shows DMK landslide prediction" },
   { date: "8 Apr 2026", event: "Matrize poll shows NDA slight edge; Inside Elections predicts DMK retention" },
   { date: "9 Apr 2026", event: "Last date for withdrawal" },
+  { date: "15 Apr 2026", event: "Campaign intensifies with all parties conducting final rallies" },
   { date: "23 Apr 2026", event: "POLLING DAY" },
   { date: "4 May 2026", event: "RESULTS DAY" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "DMK's 'Superstar Manifesto 2.0'", desc: "₹8,000 'Illatharasi' coupon for women, ₹2,000 monthly aid (doubled from ₹1,000), 35 lakh laptops, 50 lakh jobs, 10 lakh houses, health insurance up to ₹10 lakh — 525+ promises for 'Dravidian Model 2.0'", color: "#E53935" },
-  { title: "AIADMK's 297 Promise Blitz", desc: "₹2,000/month for women under 'Kula Vilakku' scheme, ₹10,000 relief/family, free refrigerators, 3 LPG cylinders/year, MGNREGA 150 days, student loan waivers — comprehensive welfare package", color: "#388E3C" },
-  { title: "TVK's Youth Revolution", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise — targeting first-time voters aggressively", color: "#FFC107" },
-  { title: "Highly Fragmented Polls", desc: "Lok Poll shows DMK landslide (181-189 seats), Matrize gives NDA edge (107-120), Inside Elections predicts DMK retention (159-165). CM preference: Stalin 41%, Vijay 27.1%, EPS 24.1%", color: "#9C27B0" },
-  { title: "Anti-Incumbency vs Welfare Record", desc: "55% want DMK to continue vs 25% want change per Inside Elections. Key issues: Law & order (92% importance), corruption (90%), unemployment (88%) hurting DMK", color: "#FF5722" },
-  { title: "OPS Defection Boosts DMK", desc: "Former CM O. Panneerselvam's February switch to DMK from AIADMK creates major boost for ruling alliance, contesting Bodinayakkanur, signals AIADMK's internal weaknesses", color: "#E53935" },
-  { title: "Freebie War Intensifies", desc: "All three major parties escalating welfare promises - DMK's ₹8,000 coupons vs AIADMK's free refrigerators vs TVK's ₹4,000 unemployment aid. Fiscal concerns mount with ₹10 lakh crore state debt", color: "#9E9E9E" },
+  { title: "DMK's Manifesto 2.0 Blitz", desc: "₹8,000 'Illatharasi' coupon for women (doubling current ₹1,000), ₹2,000 monthly aid, 35 lakh laptops, 50 lakh jobs, 10 lakh houses, health insurance up to ₹10 lakh — massive welfare expansion under 'Stalin Thodarattum, Tamil Nadu Vellattum' theme", color: "#E53935" },
+  { title: "AIADMK's 297 Promise Counter-Attack", desc: "₹2,000/month for women under 'Kula Vilakku', ₹10,000 relief/family, free refrigerators, 3 LPG cylinders/year, MGNREGA 150 days, student loan waivers — direct challenge to DMK's welfare dominance under 'Makkalai Kaappom' campaign", color: "#388E3C" },
+  { title: "TVK's Youth Revolution Pitch", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise — targeting first-time voters and anti-establishment sentiment aggressively", color: "#FFC107" },
+  { title: "Highly Contradictory Polls Create Chaos", desc: "Lok Poll shows DMK landslide (181-189), Matrize gives NDA edge (107-120), Inside Elections predicts DMK retention (159-165), Shining India shows close NDA lead (37.5% vs 36.1%). CM preference: Stalin 41%, Vijay 25.1%, EPS 26.5%", color: "#9C27B0" },
+  { title: "Anti-Incumbency vs Development Record", desc: "Mixed signals on DMK performance: 50% rate govt as good/very good, but rising concerns on law & order (92%), corruption (90%), unemployment (88%). Key debate: welfare expansion vs governance issues", color: "#FF5722" },
+  { title: "OPS Defection Strengthens DMK", desc: "Former CM O. Panneerselvam's February DMK switch creates major credibility boost for ruling alliance, contesting Bodinayakkanur constituency, signals significant AIADMK factional weakness ahead of polls", color: "#E53935" },
+  { title: "Kongu Belt Earthquake Per Surveys", desc: "Shocking Lok Poll finding: DMK projected to win 44-46 seats in traditional AIADMK western stronghold vs AIADMK's 9-10 seats. If accurate, represents massive political realignment in crucial region", color: "#4CAF50" },
 ];
 
 export const SATISFACTION_DATA = [
@@ -204,7 +204,7 @@ export const SATISFACTION_DATA = [
   { label: "DMK Govt Performance - Very Bad", pct: 10, color: "#B71C1C" },
   { label: "Want DMK to Continue", pct: 55, color: "#E53935" },
   { label: "Want Change", pct: 25, color: "#388E3C" },
-  { label: "Law & Order - Poor (Major Issue)", pct: 59, color: "#F44336" },
+  { label: "Law & Order - Major Concern", pct: 92, color: "#F44336" },
   { label: "Corruption Concerns", pct: 90, color: "#F44336" },
-  { label: "Undecided Voters", pct: 20, color: "#9E9E9E" },
+  { label: "Undecided Voters", pct: 18, color: "#9E9E9E" },
 ];
