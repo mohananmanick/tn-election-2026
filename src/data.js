@@ -1,17 +1,17 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-19T00:00:00Z
+// Updated: 2026-04-21T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-19T00:00:00Z";
+export const LAST_UPDATED = "2026-04-21T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
   resultDate: "4 May 2026",
   totalSeats: 234,
-  totalVoters: 56707380,
-  maleVoters: 27738925,
-  femaleVoters: 28960838,
-  thirdGenderVoters: 7617,
+  totalVoters: 57343291,
+  maleVoters: 28030658,
+  femaleVoters: 29304905,
+  thirdGenderVoters: 7728,
   phase: "Single Phase",
   nominationStart: "30 March 2026",
   nominationEnd: "6 April 2026",
@@ -81,7 +81,8 @@ export const OPINION_POLLS = [
   { source: "Lok Poll", date: "Apr 2026", spa: { min: 181, max: 189 }, nda: { min: 38, max: 42 }, tvk: { min: 8, max: 10 }, ntk: { min: 0, max: 0 } },
   { source: "Junior Vikatan", date: "Apr 2026", spa: { min: 121, max: 121 }, nda: { min: 83, max: 83 }, tvk: { min: 3, max: 3 }, ntk: { min: 0, max: 0 } },
   { source: "Matrize Opinion Poll", date: "Apr 2026", spa: { min: 102, max: 115 }, nda: { min: 107, max: 120 }, tvk: { min: 5, max: 12 }, ntk: { min: 1, max: 6 } },
-  { source: "Inside Elections Survey", date: "Apr 2026", spa: { min: 159, max: 165 }, nda: { min: 64, max: 70 }, tvk: { min: 4, max: 6 }, ntk: { min: 0, max: 0 } },
+  { source: "Inside Elections Survey", date: "Mar 2026", spa: { min: 159, max: 165 }, nda: { min: 64, max: 70 }, tvk: { min: 4, max: 6 }, ntk: { min: 0, max: 0 } },
+  { source: "IPDS Opinion Poll", date: "Apr 2026", spa: { min: 135, max: 145 }, nda: { min: 75, max: 85 }, tvk: { min: 8, max: 12 }, ntk: { min: 2, max: 4 } },
 ];
 
 export const VOTE_SHARE_POLLS = [
@@ -89,6 +90,7 @@ export const VOTE_SHARE_POLLS = [
   { source: "Junior Vikatan", spa: 37.5, nda: 33.6, tvk: 24.7, ntk: 2.0, undecided: 2.2 },
   { source: "Matrize Opinion Poll", spa: 38.0, nda: 40.0, tvk: 16.0, ntk: 4.0, undecided: 2.0 },
   { source: "Inside Elections Survey", spa: 44.0, nda: 33.0, tvk: 18.0, ntk: 3.0, undecided: 2.0 },
+  { source: "IPDS Opinion Poll", spa: 42.0, nda: 31.0, tvk: 20.0, ntk: 5.0, undecided: 2.0 },
 ];
 
 export const CM_PREFERENCE = [
@@ -169,11 +171,12 @@ export const TIMELINE = [
   { date: "3 Apr 2026", event: "BJP and Congress release candidate lists" },
   { date: "6 Apr 2026", event: "Last date for nominations - 3,430 nominations filed" },
   { date: "7 Apr 2026", event: "Scrutiny of nominations; contradictory polls emerge" },
-  { date: "8 Apr 2026", event: "Matrize poll shows NDA slight edge; Inside Elections predicts DMK retention" },
+  { date: "8 Apr 2026", event: "Matrize poll shows NDA slight edge; Inside Elections predicts DMK retention; Voter count increases to 5.73 crore" },
   { date: "9 Apr 2026", event: "Last date for withdrawal" },
   { date: "12 Apr 2026", event: "Makkal Choice poll shows Vijay leading CM preference with 62%" },
   { date: "17 Apr 2026", event: "Junior Vikatan poll shows DMK retaining power with 121 seats" },
   { date: "18 Apr 2026", event: "Campaign intensifies with all parties conducting final rallies" },
+  { date: "21 Apr 2026", event: "Final campaign day - silent period begins 6 PM" },
   { date: "23 Apr 2026", event: "POLLING DAY" },
   { date: "4 May 2026", event: "RESULTS DAY" },
 ];
@@ -182,9 +185,10 @@ export const CAMPAIGN_NARRATIVES = [
   { title: "Vijay's Youth Revolution Manifesto", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise, collateral-free education loans up to ₹20 lakh. Targeting 12.51 lakh first-time voters and 2.28 crore youth (20-40 age group)", color: "#FFC107" },
   { title: "DMK's Manifesto 2.0 Expansion", desc: "₹8,000 'Illatharasi' coupon for homemakers (8x current schemes), ₹2,000 monthly aid for women (doubling current ₹1,000), free laptops for all college students, breakfast scheme expansion, 50 lakh jobs promise, 10 lakh houses under 'Stalin Thodarattum, Tamil Nadu Vellattum'", color: "#E53935" },
   { title: "AIADMK's 297 Promise Counter-Attack", desc: "₹2,000/month for women under 'Kula Vilakku', ₹10,000 relief/family, free refrigerators, 3 LPG cylinders/year, MGNREGA 150 days, student loan waivers, ₹25,000 two-wheeler subsidy for working women under 'Makkalai Kaappom' campaign", color: "#388E3C" },
-  { title: "Wildly Contradictory Opinion Polls Create Uncertainty", desc: "Lok Poll: DMK landslide (181-189 seats), Matrize: NDA edge (107-120), Inside Elections: DMK retention (159-165), Junior Vikatan: DMK 121 seats, Makkal Choice: Vijay leads CM preference with 62% vs Stalin 16%, EPS 16%. Unprecedented divergence creates voter confusion", color: "#9C27B0" },
+  { title: "Wildly Contradictory Opinion Polls Create Uncertainty", desc: "Lok Poll: DMK landslide (181-189 seats), Matrize: NDA edge (107-120), Junior Vikatan: DMK 121 seats, Inside Elections: DMK retention (159-165), Makkal Choice: Vijay leads CM preference with 62% vs Stalin 16%, EPS 16%. Unprecedented divergence creates voter confusion", color: "#9C27B0" },
   { title: "Anti-Incumbency vs Welfare Record Dilemma", desc: "Inside Elections: 55% want DMK to continue vs 25% want change, but Junior Vikatan shows 62% favor change. Major concerns on youth unemployment (94%), law & order (92%), corruption (90%), inflation (89%). Mixed government performance ratings", color: "#FF5722" },
   { title: "Panneerselvam's Strategic Defection to DMK", desc: "Former 3-time CM O. Panneerselvam's February 2026 switch to DMK brings southern belt strength to ruling party, particularly in Bodinayakkanur constituency. His presence lends unexpected advantage in regions where DMK historically struggled", color: "#4CAF50" },
+  { title: "Voter Count Surge to 5.73 Crore", desc: "Tamil Nadu's electorate expanded from 5.67 crore to 5.73 crore with addition of 6.35 lakh new voters before polling, indicating strong democratic participation. Women voters (2.93 crore) continue to outnumber men (2.80 crore), critical for welfare-focused campaigns", color: "#2196F3" },
 ];
 
 export const SATISFACTION_DATA = [
@@ -195,6 +199,7 @@ export const SATISFACTION_DATA = [
   { label: "DMK Govt Performance - Very Bad", pct: 10, color: "#B71C1C" },
   { label: "Want DMK to Continue", pct: 55, color: "#E53935" },
   { label: "Want Change", pct: 25, color: "#388E3C" },
+  { label: "Want Change (Alt Survey)", pct: 62, color: "#F44336" },
   { label: "Youth Unemployment - Major Concern", pct: 94, color: "#F44336" },
   { label: "Law & Order - Major Concern", pct: 92, color: "#F44336" },
   { label: "Undecided Voters", pct: 20, color: "#9E9E9E" },
