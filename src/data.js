@@ -1,15 +1,15 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-23T10:00:00Z
+// Updated: 2026-04-25T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-23T10:00:00Z";
+export const LAST_UPDATED = "2026-04-25T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
-  resultDate: "4 May 2026",
+  resultDate: "4 May 2026", 
   totalSeats: 234,
   totalVoters: 57343291,
-  maleVoters: 28030658,
+  maleVoters: 28303658,
   femaleVoters: 29304905,
   thirdGenderVoters: 7728,
   phase: "Single Phase",
@@ -18,7 +18,12 @@ export const ELECTION_META = {
   scrutinyDate: "7 April 2026",
   withdrawalDeadline: "9 April 2026",
   candidatesFiled: 4023,
-  pollingStatus: "ONGOING"
+  pollingStatus: "COMPLETED",
+  turnout: 85.15,
+  recordTurnout: true,
+  pollingStations: 75026,
+  locations: 33133,
+  evmUnits: 106418
 };
 
 export const ALLIANCES = {
@@ -101,9 +106,9 @@ export const VOTE_SHARE_POLLS = [
 
 export const CM_PREFERENCE = [
   { name: "C. Joseph Vijay", party: "TVK", pct: 62.0, color: "#FFC107" },
-  { name: "M.K. Stalin", party: "DMK", pct: 16.0, color: "#E53935" },
-  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 16.0, color: "#388E3C" },
-  { name: "Seeman", party: "NTK", pct: 6.0, color: "#D32F2F" },
+  { name: "M.K. Stalin", party: "DMK", pct: 41.0, color: "#E53935" },
+  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 24.1, color: "#388E3C" },
+  { name: "Seeman", party: "NTK", pct: 7.8, color: "#D32F2F" },
 ];
 
 export const RESULTS_2021 = {
@@ -184,12 +189,14 @@ export const TIMELINE = [
   { date: "18 Apr 2026", event: "Campaign intensifies with all parties conducting final rallies" },
   { date: "21 Apr 2026", event: "Final campaign day - silent period begins 6 PM" },
   { date: "22 Apr 2026", event: "Dinamalar poll predicts photo finish with 60 swing seats and 18% undecided voters" },
-  { date: "23 Apr 2026", event: "POLLING DAY - 75,064 polling stations across 234 constituencies" },
-  { date: "4 May 2026", event: "RESULTS DAY" },
+  { date: "23 Apr 2026", event: "POLLING DAY - Record 85.15% turnout across 75,026 polling stations (highest in state history)" },
+  { date: "24 Apr 2026", event: "ECI confirms record turnout; Exit polls banned until Apr 29; EVMs transported to 62 counting centres" },
+  { date: "4 May 2026", event: "RESULTS DAY - Vote counting and declaration" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "POLLING DAY LIVE: 5.73 Crore Voters Cast Ballots", desc: "Tamil Nadu votes in single phase across 75,064 polling stations. Stalin, Vijay, EPS cast early votes amid tight security. Youth and first-time voters show strong turnout. Initial reports suggest high participation in urban areas", color: "#2196F3" },
+  { title: "HISTORIC TURNOUT: 85.15% Voting Sets New Record", desc: "Tamil Nadu achieved its highest-ever Assembly election turnout since Independence with 85.15% voter participation. Record was set after Special Intensive Revision removed 74 lakh ineligible voters. Karur district led with 92.66% turnout. Women voters recorded 85.76% participation vs 83.57% male participation", color: "#2196F3" },
+  { title: "Exit Polls Banned Until April 29 - Multi-State Rules Apply", desc: "Despite Tamil Nadu completing polling, Election Commission rules prohibit exit poll release until West Bengal's second phase concludes on April 29. Violation punishable by law. Results counting scheduled for May 4 across all states simultaneously", color: "#FF9800" },
   { title: "Dinamalar Poll Predicts Photo Finish with 60 Swing Seats", desc: "Latest pre-poll survey shows DMK losing 12-14% vote share vs 2021, with AIADMK gaining edge (36% vs DMK's 32%). TVK's 23% and NTK's 7% could determine outcome. Whopping 18% voters remain undecided on election eve", color: "#9C27B0" },
   { title: "Vijay's Youth Revolution Manifesto", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise, collateral-free education loans up to ₹20 lakh. Targeting 12.51 lakh first-time voters and 2.28 crore youth (20-40 age group)", color: "#FFC107" },
   { title: "DMK's Manifesto 2.0 Expansion", desc: "₹8,000 'Illatharasi' coupon for homemakers (8x current schemes), ₹2,000 monthly aid for women (doubling current ₹1,000), free laptops for all college students, breakfast scheme expansion, 50 lakh jobs promise, 10 lakh houses under 'Stalin Thodarattum, Tamil Nadu Vellattum'", color: "#E53935" },
@@ -197,6 +204,7 @@ export const CAMPAIGN_NARRATIVES = [
   { title: "Wildly Contradictory Opinion Polls Create Uncertainty", desc: "8 major surveys show massive divergence: Lok Poll (DMK 181-189), Dinamalar (photo finish), Matrize (NDA edge 107-120), Junior Vikatan (DMK 121), Inside Elections (DMK 159-165). Up to 60 'close contest' seats identified. Makkal Choice shows Vijay leading CM preference with 62%", color: "#FF5722" },
   { title: "Anti-Incumbency vs Welfare Record Dilemma", desc: "Inside Elections: 55% want DMK to continue vs 25% want change, but Junior Vikatan shows 62% favor change. Major concerns on youth unemployment (94%), law & order (92%), corruption (90%), inflation (89%). Mixed government performance ratings", color: "#795548" },
   { title: "Panneerselvam's Strategic Defection to DMK", desc: "Former 3-time CM O. Panneerselvam's February 2026 switch to DMK brings southern belt strength to ruling party, particularly in Bodinayakkanur constituency. His presence lends unexpected advantage in regions where DMK historically struggled", color: "#4CAF50" },
+  { title: "DMDK Joins DMK Alliance - First Time in History", desc: "Premalatha Vijayakanth's DMDK joins DMK-led alliance for first time since party's 2005 founding, ending years of political indecision. DMK allocated 10 seats to DMDK plus one Rajya Sabha seat, significantly strengthening secular front ahead of polls", color: "#03A9F4" },
 ];
 
 export const SATISFACTION_DATA = [
@@ -210,5 +218,6 @@ export const SATISFACTION_DATA = [
   { label: "Want Change (Alt Survey)", pct: 62, color: "#F44336" },
   { label: "Youth Unemployment - Major Concern", pct: 94, color: "#F44336" },
   { label: "Law & Order - Major Concern", pct: 92, color: "#F44336" },
+  { label: "Record Voter Turnout (85.15%)", pct: 85.15, color: "#4CAF50" },
   { label: "Undecided Voters (Dinamalar)", pct: 18, color: "#9E9E9E" },
 ];
