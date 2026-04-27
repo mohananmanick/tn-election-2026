@@ -1,15 +1,15 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-25T00:00:00Z
+// Updated: 2026-04-27T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-25T00:00:00Z";
+export const LAST_UPDATED = "2026-04-27T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
   resultDate: "4 May 2026", 
   totalSeats: 234,
   totalVoters: 57343291,
-  maleVoters: 28303658,
+  maleVoters: 28030658,
   femaleVoters: 29304905,
   thirdGenderVoters: 7728,
   phase: "Single Phase",
@@ -19,11 +19,12 @@ export const ELECTION_META = {
   withdrawalDeadline: "9 April 2026",
   candidatesFiled: 4023,
   pollingStatus: "COMPLETED",
-  turnout: 85.15,
+  turnout: 84.69,
   recordTurnout: true,
-  pollingStations: 75026,
+  pollingStations: 75064,
   locations: 33133,
-  evmUnits: 106418
+  evmUnits: 106418,
+  countingCentres: 62
 };
 
 export const ALLIANCES = {
@@ -72,6 +73,7 @@ export const ALLIANCES = {
     color: "#FFC107",
     parties: [{ name: "TVK", seats: 234, leader: "C. Joseph Vijay", color: "#FFC107" }],
     totalSeats: 234,
+    symbol: "Whistle",
   },
   NTK: {
     name: "Naam Tamilar Katchi (NTK)",
@@ -144,20 +146,22 @@ export const KEY_CANDIDATES = [
   { name: "Vanathi Srinivasan", party: "BJP", alliance: "NDA", constituency: "Coimbatore North", role: "BJP Mahila Morcha President" },
   { name: "Anbumani Ramadoss", party: "PMK", alliance: "NDA", constituency: "Pennagaram", role: "PMK President" },
   { name: "TTV Dhinakaran", party: "AMMK", alliance: "NDA", constituency: "Kovilpatti", role: "AMMK Gen Sec" },
-  { name: "Seeman", party: "NTK", alliance: "NTK", constituency: "Thiruvottiyur", role: "NTK Chief Coordinator" },
+  { name: "Seeman", party: "NTK", alliance: "NTK", constituency: "Karaikudi", role: "NTK Chief Coordinator" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "SPA", constituency: "Kattumannarkoil (SC)", role: "VCK President" },
-  { name: "N. Anand", party: "TVK", alliance: "TVK", constituency: "Thiyagarayanagar", role: "TVK Core Team" },
   { name: "Aadhav Arjuna", party: "TVK", alliance: "TVK", constituency: "Villivakkam", role: "TVK General Secretary" },
+  { name: "K.A. Sengottaiyan", party: "TVK", alliance: "TVK", constituency: "Gobichettipalayam", role: "Former AIADMK Minister (joined TVK)" },
+  { name: "K. Selvaperunthagai", party: "INC", alliance: "SPA", constituency: "Sriperumbudur", role: "TNCC President" },
+  { name: "Premalatha Vijayakanth", party: "DMDK", alliance: "SPA", constituency: "Virudhachalam", role: "DMDK General Secretary" },
 ];
 
 export const REGIONS = {
-  "Chennai": { seats: 16, dmk2021: 16, aiadmk2021: 0, swing: "DMK stronghold, but TVK making significant inroads among youth", tvkThreat: "High" },
-  "North Tamil Nadu": { seats: 38, dmk2021: 30, aiadmk2021: 8, swing: "DMK projected 53-56 seats per Lok Poll", tvkThreat: "Medium" },
-  "Western Tamil Nadu": { seats: 42, dmk2021: 24, aiadmk2021: 18, swing: "Shocking DMK surge per polls - 44-46 seats in traditional AIADMK belt", tvkThreat: "Medium" },
+  "Chennai": { seats: 16, dmk2021: 16, aiadmk2021: 0, swing: "DMK stronghold, but TVK making inroads among youth; recorded 83.74% turnout", tvkThreat: "High" },
+  "North Tamil Nadu": { seats: 58, dmk2021: 30, aiadmk2021: 8, swing: "DMK projected 53-56 seats per Lok Poll; highest turnout regions", tvkThreat: "Medium" },
+  "Western Tamil Nadu": { seats: 42, dmk2021: 24, aiadmk2021: 18, swing: "Shocking DMK surge per polls - 44-46 seats projected in Kongu region", tvkThreat: "Medium" },
   "Central Tamil Nadu": { seats: 32, dmk2021: 22, aiadmk2021: 10, swing: "DMK dominance continues per Delta zone projections", tvkThreat: "Medium" },
-  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK projected 39-40 seats", tvkThreat: "Low" },
-  "Southern Tamil Nadu": { seats: 48, dmk2021: 28, aiadmk2021: 20, swing: "DMK projected 45-47 seats with OPS joining", tvkThreat: "Medium" },
-  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "Major upset - DMK leading in traditional AIADMK bastion", tvkThreat: "Low" },
+  "Cauvery Delta": { seats: 28, dmk2021: 22, aiadmk2021: 6, swing: "DMK projected 39-40 seats; strong turnout recorded", tvkThreat: "Low" },
+  "Southern Tamil Nadu": { seats: 48, dmk2021: 28, aiadmk2021: 20, swing: "DMK projected 45-47 seats with OPS joining; Karur leads with 91.86% turnout", tvkThreat: "Medium" },
+  "Kongu Belt": { seats: 30, dmk2021: 15, aiadmk2021: 15, swing: "Major upset - DMK leading in traditional AIADMK bastion per Lok Poll", tvkThreat: "Low" },
 };
 
 export const TIMELINE = [
@@ -170,41 +174,40 @@ export const TIMELINE = [
   { date: "19 Feb 2026", event: "DMDK joins DMK alliance" },
   { date: "27 Feb 2026", event: "O. Panneerselvam joins DMK" },
   { date: "15 Mar 2026", event: "ECI announces election schedule" },
-  { date: "18 Mar 2026", event: "Vijay rejects NDA alliance offer" },
+  { date: "18 Mar 2026", event: "Vijay rejects NDA alliance offer, announces solo contest" },
   { date: "22 Mar 2026", event: "T. Velmurugan-led TVK withdraws from SPA" },
   { date: "23 Mar 2026", event: "NDA finalizes seat-sharing: AIADMK 169, BJP 27, PMK 18, AMMK 11" },
-  { date: "24 Mar 2026", event: "AIADMK releases manifesto with 297 promises; MNM gives outside support to SPA" },
+  { date: "24 Mar 2026", event: "AIADMK releases 297-promise manifesto; MNM gives outside support to SPA" },
   { date: "28 Mar 2026", event: "DMK releases candidate list for 164 seats" },
   { date: "29 Mar 2026", event: "TVK releases full 234 candidate list and manifesto; DMK unveils manifesto" },
-  { date: "30 Mar 2026", event: "Nominations begin; Vijay and Stalin file papers" },
-  { date: "1 Apr 2026", event: "MK Stalin kicks off campaign in Tiruchirappalli" },
+  { date: "30 Mar 2026", event: "Nominations begin; Vijay files from Perambur, Stalin from Kolathur" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
   { date: "3 Apr 2026", event: "BJP and Congress release candidate lists" },
   { date: "6 Apr 2026", event: "Last date for nominations - 4,023 nominations filed" },
   { date: "7 Apr 2026", event: "Scrutiny of nominations; contradictory polls emerge" },
-  { date: "8 Apr 2026", event: "Matrize poll shows NDA slight edge; Inside Elections predicts DMK retention; Voter count increases to 5.73 crore" },
-  { date: "9 Apr 2026", event: "Last date for withdrawal" },
+  { date: "8 Apr 2026", event: "Voter count increases to 5.73 crore after revision" },
+  { date: "9 Apr 2026", event: "Last date for withdrawal; final candidate count confirmed" },
   { date: "12 Apr 2026", event: "Makkal Choice poll shows Vijay leading CM preference with 62%" },
   { date: "17 Apr 2026", event: "Junior Vikatan poll shows DMK retaining power with 121 seats" },
-  { date: "18 Apr 2026", event: "Campaign intensifies with all parties conducting final rallies" },
   { date: "21 Apr 2026", event: "Final campaign day - silent period begins 6 PM" },
   { date: "22 Apr 2026", event: "Dinamalar poll predicts photo finish with 60 swing seats and 18% undecided voters" },
-  { date: "23 Apr 2026", event: "POLLING DAY - Record 85.15% turnout across 75,026 polling stations (highest in state history)" },
-  { date: "24 Apr 2026", event: "ECI confirms record turnout; Exit polls banned until Apr 29; EVMs transported to 62 counting centres" },
+  { date: "23 Apr 2026", event: "POLLING DAY - Record 84.69% turnout across 75,064 polling stations (highest in state history)" },
+  { date: "24 Apr 2026", event: "ECI confirms record turnout; Exit polls banned until Apr 29; EVMs secured in counting centres" },
   { date: "4 May 2026", event: "RESULTS DAY - Vote counting and declaration" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "HISTORIC TURNOUT: 85.15% Voting Sets New Record", desc: "Tamil Nadu achieved its highest-ever Assembly election turnout since Independence with 85.15% voter participation. Record was set after Special Intensive Revision removed 74 lakh ineligible voters. Karur district led with 92.66% turnout. Women voters recorded 85.76% participation vs 83.57% male participation", color: "#2196F3" },
+  { title: "HISTORIC TURNOUT: 84.69% Voting Sets New Record", desc: "Tamil Nadu achieved its highest-ever Assembly election turnout since Independence with 84.69% voter participation. Record was set after Special Intensive Revision removed duplicate and dead voters. Karur district led with 91.86% turnout. Women voters recorded 85.76% participation vs 83.57% male participation", color: "#2196F3" },
   { title: "Exit Polls Banned Until April 29 - Multi-State Rules Apply", desc: "Despite Tamil Nadu completing polling, Election Commission rules prohibit exit poll release until West Bengal's second phase concludes on April 29. Violation punishable by law. Results counting scheduled for May 4 across all states simultaneously", color: "#FF9800" },
   { title: "Dinamalar Poll Predicts Photo Finish with 60 Swing Seats", desc: "Latest pre-poll survey shows DMK losing 12-14% vote share vs 2021, with AIADMK gaining edge (36% vs DMK's 32%). TVK's 23% and NTK's 7% could determine outcome. Whopping 18% voters remain undecided on election eve", color: "#9C27B0" },
-  { title: "Vijay's Youth Revolution Manifesto", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise, collateral-free education loans up to ₹20 lakh. Targeting 12.51 lakh first-time voters and 2.28 crore youth (20-40 age group)", color: "#FFC107" },
-  { title: "DMK's Manifesto 2.0 Expansion", desc: "₹8,000 'Illatharasi' coupon for homemakers (8x current schemes), ₹2,000 monthly aid for women (doubling current ₹1,000), free laptops for all college students, breakfast scheme expansion, 50 lakh jobs promise, 10 lakh houses under 'Stalin Thodarattum, Tamil Nadu Vellattum'", color: "#E53935" },
+  { title: "Vijay's Youth Revolution Manifesto - TVK Goes Solo", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise. AI ministry, ₹1.5 trillion economy by 2036. Contesting all 234 seats with 'Whistle' symbol", color: "#FFC107" },
+  { title: "DMK's Manifesto 2.0 Expansion", desc: "₹8,000 'Illatharasi' coupon for homemakers (8x current schemes), ₹2,000 monthly aid for women (doubling current ₹1,000), free laptops for all college students, breakfast scheme expansion, 50 lakh jobs promise under 'Stalin Thodarattum, Tamil Nadu Vellattum'", color: "#E53935" },
   { title: "AIADMK's 297 Promise Counter-Attack", desc: "₹2,000/month for women under 'Kula Vilakku', ₹10,000 relief/family, free refrigerators, 3 LPG cylinders/year, MGNREGA 150 days, student loan waivers, ₹25,000 two-wheeler subsidy for working women under 'Makkalai Kaappom' campaign", color: "#388E3C" },
   { title: "Wildly Contradictory Opinion Polls Create Uncertainty", desc: "8 major surveys show massive divergence: Lok Poll (DMK 181-189), Dinamalar (photo finish), Matrize (NDA edge 107-120), Junior Vikatan (DMK 121), Inside Elections (DMK 159-165). Up to 60 'close contest' seats identified. Makkal Choice shows Vijay leading CM preference with 62%", color: "#FF5722" },
   { title: "Anti-Incumbency vs Welfare Record Dilemma", desc: "Inside Elections: 55% want DMK to continue vs 25% want change, but Junior Vikatan shows 62% favor change. Major concerns on youth unemployment (94%), law & order (92%), corruption (90%), inflation (89%). Mixed government performance ratings", color: "#795548" },
-  { title: "Panneerselvam's Strategic Defection to DMK", desc: "Former 3-time CM O. Panneerselvam's February 2026 switch to DMK brings southern belt strength to ruling party, particularly in Bodinayakkanur constituency. His presence lends unexpected advantage in regions where DMK historically struggled", color: "#4CAF50" },
+  { title: "Panneerselvam's Strategic Defection to DMK", desc: "Former 3-time CM O. Panneerselvam's February 2026 switch to DMK brings southern belt strength to ruling party, particularly in Bodinayakanur constituency. His presence lends unexpected advantage in regions where DMK historically struggled", color: "#4CAF50" },
   { title: "DMDK Joins DMK Alliance - First Time in History", desc: "Premalatha Vijayakanth's DMDK joins DMK-led alliance for first time since party's 2005 founding, ending years of political indecision. DMK allocated 10 seats to DMDK plus one Rajya Sabha seat, significantly strengthening secular front ahead of polls", color: "#03A9F4" },
+  { title: "Special Intensive Revision (SIR) Streamlines Voter Base", desc: "Election Commission conducted massive voter list cleanup reducing registered voters from 6.29 crore (2021) to 5.73 crore after removing 56 lakh duplicate and dead voters. Despite smaller voter base, turnout percentage appears higher, creating statistical complexities in comparison", color: "#9E9E9E" },
 ];
 
 export const SATISFACTION_DATA = [
@@ -218,6 +221,9 @@ export const SATISFACTION_DATA = [
   { label: "Want Change (Alt Survey)", pct: 62, color: "#F44336" },
   { label: "Youth Unemployment - Major Concern", pct: 94, color: "#F44336" },
   { label: "Law & Order - Major Concern", pct: 92, color: "#F44336" },
-  { label: "Record Voter Turnout (85.15%)", pct: 85.15, color: "#4CAF50" },
+  { label: "Record Voter Turnout (84.69%)", pct: 84.69, color: "#4CAF50" },
   { label: "Undecided Voters (Dinamalar)", pct: 18, color: "#9E9E9E" },
+  { label: "First-time Voters", pct: 25.5, color: "#2196F3" },
+  { label: "Female Voter Participation (85.76%)", pct: 85.76, color: "#E91E63" },
+  { label: "Male Voter Participation (83.57%)", pct: 83.57, color: "#3F51B5" },
 ];
