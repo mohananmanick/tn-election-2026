@@ -1,16 +1,16 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-04-27T00:00:00Z
+// Updated: 2026-04-29T00:00:00Z
 // Source: Latest web search results from multiple opinion polls and election news
 
-export const LAST_UPDATED = "2026-04-27T00:00:00Z";
+export const LAST_UPDATED = "2026-04-29T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
   resultDate: "4 May 2026", 
   totalSeats: 234,
   totalVoters: 57343291,
-  maleVoters: 28030658,
-  femaleVoters: 29304905,
+  maleVoters: 28303000,
+  femaleVoters: 29304900,
   thirdGenderVoters: 7728,
   phase: "Single Phase",
   nominationStart: "30 March 2026",
@@ -19,12 +19,14 @@ export const ELECTION_META = {
   withdrawalDeadline: "9 April 2026",
   candidatesFiled: 4023,
   pollingStatus: "COMPLETED",
-  turnout: 84.69,
+  turnout: 85.1,
+  revisedTurnout: true,
   recordTurnout: true,
   pollingStations: 75064,
   locations: 33133,
   evmUnits: 106418,
-  countingCentres: 62
+  countingCentres: 62,
+  exitPollsDate: "29 April 2026 6:30 PM"
 };
 
 export const ALLIANCES = {
@@ -191,14 +193,16 @@ export const TIMELINE = [
   { date: "17 Apr 2026", event: "Junior Vikatan poll shows DMK retaining power with 121 seats" },
   { date: "21 Apr 2026", event: "Final campaign day - silent period begins 6 PM" },
   { date: "22 Apr 2026", event: "Dinamalar poll predicts photo finish with 60 swing seats and 18% undecided voters" },
-  { date: "23 Apr 2026", event: "POLLING DAY - Record 84.69% turnout across 75,064 polling stations (highest in state history)" },
+  { date: "23 Apr 2026", event: "POLLING DAY - Record 85.1% turnout across 75,064 polling stations (highest in state history)" },
   { date: "24 Apr 2026", event: "ECI confirms record turnout; Exit polls banned until Apr 29; EVMs secured in counting centres" },
+  { date: "25 Apr 2026", event: "Turnout revised upward to 85.1% from initial 84.69%" },
+  { date: "29 Apr 2026", event: "EXIT POLLS RELEASED at 6:30 PM after embargo lifts" },
   { date: "4 May 2026", event: "RESULTS DAY - Vote counting and declaration" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "HISTORIC TURNOUT: 84.69% Voting Sets New Record", desc: "Tamil Nadu achieved its highest-ever Assembly election turnout since Independence with 84.69% voter participation. Record was set after Special Intensive Revision removed duplicate and dead voters. Karur district led with 91.86% turnout. Women voters recorded 85.76% participation vs 83.57% male participation", color: "#2196F3" },
-  { title: "Exit Polls Banned Until April 29 - Multi-State Rules Apply", desc: "Despite Tamil Nadu completing polling, Election Commission rules prohibit exit poll release until West Bengal's second phase concludes on April 29. Violation punishable by law. Results counting scheduled for May 4 across all states simultaneously", color: "#FF9800" },
+  { title: "HISTORIC TURNOUT: 85.1% Voting Sets New Record", desc: "Tamil Nadu achieved its highest-ever Assembly election turnout since Independence with 85.1% voter participation (revised from initial 84.69%). Special Intensive Revision removed duplicate and dead voters. Karur district led with 91.86% turnout. Women voters recorded 85.76% participation vs 83.57% male participation", color: "#2196F3" },
+  { title: "Exit Polls Released April 29 - Record Unpredictability Expected", desc: "Exit polls released at 6:30 PM on April 29 after Election Commission embargo lifted following West Bengal's second phase completion. Major agencies including Axis My India, Matrize releasing projections. Three-way race between DMK+, AIADMK+, and TVK creates unprecedented complexity for pollsters", color: "#FF9800" },
   { title: "Dinamalar Poll Predicts Photo Finish with 60 Swing Seats", desc: "Latest pre-poll survey shows DMK losing 12-14% vote share vs 2021, with AIADMK gaining edge (36% vs DMK's 32%). TVK's 23% and NTK's 7% could determine outcome. Whopping 18% voters remain undecided on election eve", color: "#9C27B0" },
   { title: "Vijay's Youth Revolution Manifesto - TVK Goes Solo", desc: "₹4,000/month for unemployed graduates over 29, ₹2,500 for women, 6 free LPG cylinders/year, 75% job reservation for Tamilians, drug-free TN promise. AI ministry, ₹1.5 trillion economy by 2036. Contesting all 234 seats with 'Whistle' symbol", color: "#FFC107" },
   { title: "DMK's Manifesto 2.0 Expansion", desc: "₹8,000 'Illatharasi' coupon for homemakers (8x current schemes), ₹2,000 monthly aid for women (doubling current ₹1,000), free laptops for all college students, breakfast scheme expansion, 50 lakh jobs promise under 'Stalin Thodarattum, Tamil Nadu Vellattum'", color: "#E53935" },
@@ -221,9 +225,12 @@ export const SATISFACTION_DATA = [
   { label: "Want Change (Alt Survey)", pct: 62, color: "#F44336" },
   { label: "Youth Unemployment - Major Concern", pct: 94, color: "#F44336" },
   { label: "Law & Order - Major Concern", pct: 92, color: "#F44336" },
-  { label: "Record Voter Turnout (84.69%)", pct: 84.69, color: "#4CAF50" },
+  { label: "Record Voter Turnout (85.1%)", pct: 85.1, color: "#4CAF50" },
   { label: "Undecided Voters (Dinamalar)", pct: 18, color: "#9E9E9E" },
   { label: "First-time Voters", pct: 25.5, color: "#2196F3" },
   { label: "Female Voter Participation (85.76%)", pct: 85.76, color: "#E91E63" },
   { label: "Male Voter Participation (83.57%)", pct: 83.57, color: "#3F51B5" },
+  { label: "Rising Prices Concern", pct: 89, color: "#F44336" },
+  { label: "Corruption Allegations Impact", pct: 90, color: "#F44336" },
+  { label: "Working Age Population (20-49)", pct: 47, color: "#2196F3" },
 ];
