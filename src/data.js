@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-05-01T00:00:00Z
+// Updated: 2026-05-03T00:00:00Z
 // Source: Latest web search results from exit polls and election coverage
 
-export const LAST_UPDATED = "2026-05-01T00:00:00Z";
+export const LAST_UPDATED = "2026-05-03T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -36,17 +36,14 @@ export const ALLIANCES = {
     cmCandidate: "M.K. Stalin",
     color: "#E53935",
     parties: [
-      { name: "DMK", seats: 164, leader: "M.K. Stalin", color: "#E53935" },
+      { name: "DMK", seats: 173, leader: "M.K. Stalin", color: "#E53935" },
       { name: "INC", seats: 28, leader: "K Selvaperunthagai", color: "#19AAED" },
       { name: "DMDK", seats: 10, leader: "Premalatha Vijayakanth", color: "#FF9800" },
       { name: "VCK", seats: 8, leader: "Thol. Thirumavalavan", color: "#7B1FA2" },
       { name: "CPI", seats: 5, leader: "D. Raja", color: "#C62828" },
       { name: "CPI(M)", seats: 5, leader: "K. Balakrishnan", color: "#B71C1C" },
       { name: "MDMK", seats: 4, leader: "Vaiko", color: "#F57C00" },
-      { name: "IUML", seats: 2, leader: "K.M. Kader Mohideen", color: "#2E7D32" },
-      { name: "KMDK", seats: 2, leader: "E.R. Eswaran", color: "#558B2F" },
-      { name: "MMK", seats: 2, leader: "Jawahirullah", color: "#00695C" },
-      { name: "Others", seats: 4, leader: "Various", color: "#9E9E9E" },
+      { name: "Others", seats: 1, leader: "Various", color: "#9E9E9E" },
     ],
     totalSeats: 234,
     support: ["MNM (outside support)"],
@@ -93,6 +90,7 @@ export const OPINION_POLLS = [
   { source: "Political Laboratory", date: "May 1 2026", spa: { min: 135, max: 140 }, nda: { min: 82, max: 85 }, tvk: { min: 10, max: 14 }, ntk: { min: 1, max: 3 } },
   { source: "Poll of Polls", date: "May 1 2026", spa: { min: 126, max: 141 }, nda: { min: 78, max: 92 }, tvk: { min: 11, max: 16 }, ntk: { min: 3, max: 7 } },
   { source: "Axis My India Exit Poll", date: "May 1 2026", spa: { min: 92, max: 110 }, nda: { min: 22, max: 32 }, tvk: { min: 98, max: 120 }, ntk: { min: 0, max: 2 } },
+  { source: "JVC Exit Poll", date: "May 1 2026", spa: { min: 75, max: 96 }, nda: { min: 128, max: 147 }, tvk: { min: 8, max: 15 }, ntk: { min: 0, max: 2 } },
 ];
 
 export const VOTE_SHARE_POLLS = [
@@ -101,7 +99,8 @@ export const VOTE_SHARE_POLLS = [
   { source: "People's Pulse Exit Poll", spa: 38.0, nda: 32.0, tvk: 22.0, ntk: 4.0, undecided: 4.0 },
   { source: "Axis My India Exit Poll", spa: 35.0, nda: 23.0, tvk: 35.0, ntk: 3.0, undecided: 4.0 },
   { source: "Political Laboratory", spa: 40.0, nda: 33.0, tvk: 18.0, ntk: 5.0, undecided: 4.0 },
-  { source: "Poll of Polls Average", spa: 38.2, nda: 31.0, tvk: 22.8, ntk: 4.0, undecided: 4.0 },
+  { source: "Matrize Exit Poll", spa: 40.3, nda: 37.1, tvk: 17.5, ntk: 3.0, undecided: 2.1 },
+  { source: "Poll of Polls Average", spa: 38.5, nda: 31.7, tvk: 22.3, ntk: 3.9, undecided: 3.6 },
 ];
 
 export const CM_PREFERENCE = [
@@ -126,9 +125,11 @@ export const KEY_ISSUES = [
   { issue: "Women's Safety", importance: 87, favorsDMK: false },
   { issue: "Drug Menace", importance: 85, favorsDMK: false },
   { issue: "State Debt Crisis", importance: 83, favorsDMK: false },
+  { issue: "Educational Access & Quality", importance: 81, favorsDMK: false },
   { issue: "Welfare Schemes", importance: 78, favorsDMK: true },
   { issue: "NEET / Education", importance: 75, favorsDMK: true },
   { issue: "Tamil Identity / Federalism", importance: 72, favorsDMK: true },
+  { issue: "Infrastructure Development", importance: 69, favorsDMK: true },
 ];
 
 export const KEY_CANDIDATES = [
@@ -176,7 +177,7 @@ export const TIMELINE = [
   { date: "22 Mar 2026", event: "T. Velmurugan-led TVK withdraws from SPA" },
   { date: "23 Mar 2026", event: "NDA finalizes seat-sharing: AIADMK 170, BJP 33, PMK 18, AMMK 11" },
   { date: "24 Mar 2026", event: "AIADMK releases 297-promise manifesto; MNM gives outside support to SPA" },
-  { date: "28 Mar 2026", event: "DMK releases candidate list for 164 seats" },
+  { date: "28 Mar 2026", event: "DMK releases candidate list for 173 seats" },
   { date: "29 Mar 2026", event: "TVK releases full 234 candidate list and manifesto; DMK unveils manifesto" },
   { date: "30 Mar 2026", event: "Nominations begin; Vijay files from Perambur, Stalin from Kolathur" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
@@ -189,21 +190,22 @@ export const TIMELINE = [
   { date: "24 Apr 2026", event: "ECI confirms record turnout; Exit polls banned until Apr 30" },
   { date: "25 Apr 2026", event: "Turnout revised upward to 85.1% from initial 84.69%" },
   { date: "30 Apr 2026", event: "EXIT POLLS RELEASED at 6:00 PM after embargo lifts" },
-  { date: "1 May 2026", event: "Exit poll analysis shows 9 of 11 agencies favor DMK+, Axis My India predicts TVK wave" },
-  { date: "4 May 2026", event: "RESULTS DAY - Vote counting and declaration" },
+  { date: "1 May 2026", event: "Exit poll analysis shows 8 of 9 agencies favor DMK+, Axis My India predicts TVK wave" },
+  { date: "3 May 2026", event: "Final day before vote counting; parties prepare for results" },
+  { date: "4 May 2026", event: "RESULTS DAY - Vote counting and declaration from 8:00 AM" },
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "Exit Polls Create Historic Uncertainty - Axis My India Predicts TVK Landslide", desc: "Major shock: Axis My India projects TVK winning 98-120 seats vs DMK's 92-110, making Vijay potential kingmaker or CM. Other 9 agencies show comfortable DMK+ win (125-160 seats). Axis prediction based on 44,460 interviews but criticized for demographic sampling issues", color: "#FF5722" },
-  { title: "Record-Breaking 85.1% Turnout Rewrites Tamil Nadu History", desc: "State achieves highest Assembly election turnout since Independence at 85.1% (revised from 84.69%). Women voters at 85.76% vs men at 83.57%. Karur district tops with 93.39%. Special Intensive Revision reduced voter base from 6.29 to 5.73 crore, inflating percentages", color: "#2196F3" },
-  { title: "Exit Poll Consensus: DMK+ Retains Power Despite Anti-Incumbency", desc: "9 out of 11 exit poll agencies project comfortable DMK victory (125-160 seats). Today's Chanakya most bullish (145-160), P-Marq shows 125-145. AIADMK projected 50-100 seats across polls. Poll of Polls average: DMK+ 126-141, NDA 78-92", color: "#4CAF50" },
+  { title: "Exit Polls Create Historic Uncertainty - Axis My India Predicts TVK Landslide", desc: "Major shock: Axis My India projects TVK winning 98-120 seats vs DMK's 92-110, making Vijay potential kingmaker or CM. Other 8 agencies show comfortable DMK+ win (125-160 seats). Axis prediction based on massive survey but criticized for demographic sampling issues", color: "#FF5722" },
+  { title: "Record-Breaking 85.1% Turnout Rewrites Tamil Nadu History", desc: "State achieves highest Assembly election turnout since Independence at 85.1% (revised from initial 84.69%). Women voters at 85.76% vs men at 83.57%. Special Intensive Revision reduced voter base from 6.29 to 5.73 crore, inflating percentages", color: "#2196F3" },
+  { title: "Exit Poll Consensus: DMK+ Retains Power Despite Anti-Incumbency", desc: "8 out of 9 exit poll agencies project comfortable DMK victory (125-160 seats). Today's Chanakya most bullish (145-160), P-Marq shows 125-145. AIADMK projected 50-100 seats across polls. Poll of Polls average: DMK+ 126-141, NDA 78-92", color: "#4CAF50" },
   { title: "TVK's Debut Impact: Vote-Splitter or Game-Changer?", desc: "Most exit polls show TVK winning 10-26 seats with 16-23% vote share, primarily among youth. Could benefit DMK by splitting anti-incumbency vote. Pradeep Gupta claims TVK performed 'exceptionally well' in Chennai. Geographic concentration will determine actual seat conversion", color: "#FFC107" },
-  { title: "Axis My India Sampling Controversy Emerges", desc: "Critics highlight Axis poll's demographic issues: OBC/MBC underrepresented at 28% vs actual 51%, missing 31% of electorate from survey universe. Despite identical 35% vote share projection for both DMK and TVK, translates into opposite seat outcomes", color: "#9C27B0" },
+  { title: "Vote Counting Day Approaches - May 4 Historic Battle", desc: "Counting begins 8:00 AM on May 4 across 62 counting centres. First trends expected within 2 hours. With exit polls showing massive variance - from DMK landslide to TVK breakthrough - results will test credibility of Indian exit polling", color: "#9C27B0" },
   { title: "O. Panneerselvam's Strategic DMK Switch Strengthens Ruling Party", desc: "Former 3-time CM's February defection from AIADMK to DMK brings southern Tamil Nadu credibility. Contesting from his Bodinayakkanur stronghold where he won thrice. Move seen as key factor in DMK's projected southern belt dominance per exit polls", color: "#4CAF50" },
-  { title: "DMDK-DMK Historic Alliance Materializes After Years of Rivalry", desc: "Premalatha Vijayakanth's DMDK joins DMK for first time in party history, allocated 10 seats plus Rajya Sabha berth. Move significantly strengthens Secular Progressive Alliance and ends years of political uncertainty for Captain's legacy party", color: "#03A9F4" },
-  { title: "Chennai Records Dramatic Turnout Surge of +24 Percentage Points", desc: "Capital sees massive jump from 59.29% (2021) to 83.58% (2026), biggest increase statewide. However, absolute votes dropped by 47,322 due to electoral roll revision. Paradox explained by smaller voter base creating statistical inflation in turnout percentage", color: "#FF9800" },
+  { title: "DMDK-DMK Historic Alliance Materializes After Years of Rivalry", desc: "Premalatha Vijayakanth's DMDK joins DMK for first time in party history, allocated 10 seats. Move significantly strengthens Secular Progressive Alliance and ends years of political uncertainty for Captain's legacy party after his death", color: "#03A9F4" },
+  { title: "Chennai Records Dramatic Turnout Surge Despite Voter Roll Reduction", desc: "Capital sees massive jump from 59.29% (2021) to 83.58% (2026), biggest increase statewide. However, absolute votes dropped by 47,322 due to SIR electoral roll revision. Paradox explained by smaller voter base creating statistical inflation", color: "#FF9800" },
   { title: "Three-Way CM Race: Vijay Leads Preference Despite Seat Projections", desc: "Makkal Choice poll shows Vijay at 62% CM preference vs Stalin's 41% and EPS's 24%. However, most exit polls project him winning only 10-26 seats. Disconnect highlights difference between aspirational leadership appeal and actual electoral arithmetic", color: "#E91E63" },
-  { title: "High-Stakes Counting Day Approaches Amid Polling Accuracy Debate", desc: "May 4 results will test credibility of Indian exit polling after massive variance. Tamil Nadu's first-past-the-post system makes seat predictions challenging for debut parties. State's history shows exit polls often underestimate AIADMK, overestimate DMK margins", color: "#795548" },
+  { title: "Cash-for-Votes Allegations Mar Historic Tamil Nadu Election", desc: "Anti-corruption activists allege rampant vote-buying with cash, gold and gifts distributed openly. Claims spending ran into thousands of crores with 'money power hitting dangerous proportions' - raising concerns about electoral integrity", color: "#795548" },
 ];
 
 export const SATISFACTION_DATA = [
@@ -215,14 +217,14 @@ export const SATISFACTION_DATA = [
   { label: "Corruption Allegations Impact", pct: 90, color: "#F44336" },
   { label: "Rising Prices Concern", pct: 89, color: "#F44336" },
   { label: "Women's Safety Concern", pct: 87, color: "#F44336" },
-  { label: "Exit Poll DMK+ Win Consensus", pct: 82, color: "#E53935" },
+  { label: "Exit Poll DMK+ Win Consensus", pct: 88, color: "#E53935" },
   { label: "Vijay CM Preference (Makkal Choice)", pct: 62, color: "#FFC107" },
-  { label: "Want Change (Alt Survey)", pct: 62, color: "#F44336" },
-  { label: "Want DMK to Continue", pct: 55, color: "#E53935" },
+  { label: "Want Change (Alt Survey)", pct: 58, color: "#F44336" },
+  { label: "Want DMK to Continue", pct: 52, color: "#E53935" },
   { label: "Working Age Population (20-49)", pct: 47, color: "#2196F3" },
-  { label: "First-time Voters Impact", pct: 25.5, color: "#2196F3" },
-  { label: "DMK Govt Performance - Very Good", pct: 30, color: "#E53935" },
+  { label: "First-time Voters Impact", pct: 21.8, color: "#2196F3" },
+  { label: "DMK Govt Performance - Very Good", pct: 32, color: "#E53935" },
   { label: "TVK Youth Support (20-29 age)", pct: 59, color: "#FFC107" },
   { label: "TVK First-time Voter Support", pct: 68, color: "#FFC107" },
-  { label: "Undecided Voters Pre-Poll", pct: 18, color: "#9E9E9E" },
+  { label: "Undecided Voters Pre-Poll", pct: 15, color: "#9E9E9E" },
 ];
