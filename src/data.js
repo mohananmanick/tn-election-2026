@@ -1,14 +1,14 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-05-11T00:00:00Z
+// Updated: 2026-05-13T00:00:00Z
 // Source: Latest web search results from government formation and coalition arrangement
 
-export const LAST_UPDATED = "2026-05-11T00:00:00Z";
+export const LAST_UPDATED = "2026-05-13T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
   resultDate: "4 May 2026",
   totalSeats: 234,
-  totalVoters: 57343291,
+  totalVoters: 57300000,
   maleVoters: 28300000,
   femaleVoters: 29300000,
   thirdGenderVoters: 7728,
@@ -26,7 +26,7 @@ export const ELECTION_META = {
   locations: 33133,
   evmUnits: 106418,
   countingCentres: 62,
-  exitPollsDate: "30 April 2026 6:00 PM",
+  exitPollsDate: "29 April 2026 6:30 PM",
   countingDate: "4 May 2026 8:00 AM",
   swearingInDate: "10 May 2026 10:00 AM"
 };
@@ -153,9 +153,9 @@ export const KEY_ISSUES = [
 
 export const KEY_CANDIDATES = [
   { name: "C. Joseph Vijay", party: "TVK", alliance: "TVK_COALITION", constituency: "Perambur (retained) & Tiruchirappalli East (resigned)", role: "TVK President / Chief Minister", result: "WON BOTH - SWORN IN AS CM MAY 10, 2026" },
-  { name: "M.K. Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Kolathur", role: "Former CM / DMK President", result: "LOST TO TVK BY 9,122 VOTES - RESIGNED AS CM MAY 5" },
+  { name: "M.K. Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Kolathur", role: "Former CM / DMK President", result: "LOST TO TVK BY 15,192 VOTES - RESIGNED AS CM MAY 5" },
   { name: "E.K. Palaniswami", party: "AIADMK", alliance: "NDA", constituency: "Edappadi", role: "AIADMK Gen Sec / Former CM", result: "WON WITH LARGEST MARGIN (50,379+ votes)" },
-  { name: "V.S. Babu", party: "TVK", alliance: "TVK_COALITION", constituency: "Kolathur", role: "TVK Candidate", result: "WON - DEFEATED MK STALIN BY 9,122 VOTES" },
+  { name: "V.S. Babu", party: "TVK", alliance: "TVK_COALITION", constituency: "Kolathur", role: "TVK Candidate", result: "WON - DEFEATED MK STALIN BY 15,192 VOTES" },
   { name: "Udhayanidhi Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Chepauk-Thiruvallikeni", role: "Former Deputy CM", result: "WON BY 7,140 VOTES" },
   { name: "K. Selvaperunthagai", party: "INC", alliance: "TVK_COALITION", constituency: "Sriperumbudur", role: "TNCC President", result: "WON - COALITION PARTNER IN TVK GOVERNMENT" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "TVK_COALITION", constituency: "Kattumannarkoil (SC)", role: "VCK President", result: "WON - SUPPORTING TVK GOVERNMENT" },
@@ -197,20 +197,21 @@ export const TIMELINE = [
   { date: "6 Apr 2026", event: "Last date for nominations - 4,023 nominations filed" },
   { date: "9 Apr 2026", event: "Last date for withdrawal; final candidate count confirmed" },
   { date: "23 Apr 2026", event: "POLLING DAY - Record 85.1% turnout across 75,064 polling stations" },
-  { date: "30 Apr 2026", event: "EXIT POLLS RELEASED - 8 of 9 agencies predict DMK victory" },
+  { date: "29 Apr 2026", event: "EXIT POLLS RELEASED - 8 of 9 agencies predict DMK victory" },
   { date: "4 May 2026", event: "RESULTS DAY - TVK EMERGES AS LARGEST PARTY WITH 108 SEATS" },
   { date: "5 May 2026", event: "Stalin resigns as CM; Vijay elected TVK legislature party leader" },
   { date: "6 May 2026", event: "Congress formally extends support to TVK; Coalition talks begin" },
   { date: "8 May 2026", event: "CPI, CPI(M), VCK, IUML extend support to TVK - Coalition reaches 121 seats" },
   { date: "8 May 2026 Evening", event: "Vijay meets Governor, stakes claim to form coalition government" },
-  { date: "10 May 2026", event: "VIJAY SWORN IN AS CHIEF MINISTER - Coalition government begins at 10 AM"  }
+  { date: "10 May 2026", event: "VIJAY SWORN IN AS CHIEF MINISTER - Coalition government begins at 10 AM"  },
+  { date: "13 May 2026", event: "Assembly first session convenes; TVK proves majority on floor test" }
 ];
 
 export const CAMPAIGN_NARRATIVES = [
   { title: "HISTORIC SWEARING-IN: Vijay Becomes Tamil Nadu CM in Star-Studded Ceremony", desc: "C. Joseph Vijay sworn in as Chief Minister on May 10, 2026, at 10 AM at Jawaharlal Nehru Stadium before thousands. Rahul Gandhi, Governor Arlekar, actress Trisha attend. Nine ministers take oath. First non-Dravidian CM since 1960s promises 'new era of secular social justice'", color: "#4CAF50" },
   { title: "Coalition Government Formed: TVK-Congress-Left Alliance Crosses Majority", desc: "TVK's 108 seats + Congress (5) + CPI (2) + CPI(M) (2) + VCK (2) + IUML (2) = 121 seats total. Effective 120 after Vijay vacates Trichy East. Left parties provide 'outside support' while remaining in SPA. Historic coalition breaks 60-year single-party rule tradition", color: "#FF9800" },
   { title: "Exit Poll Catastrophe: 8 of 9 Agencies Completely Wrong About TVK", desc: "Massive polling failure as 8 exit poll agencies predicted DMK victory with 125-160 seats. Reality: DMK collapsed to 59. Only Axis My India correctly predicted TVK range (98-120). Worst prediction disaster in Indian election history destroys media credibility", color: "#F44336" },
-  { title: "Stalin's Historic Defeat: First Sitting CM to Lose Own Seat Since 1967", desc: "M.K. Stalin loses Kolathur to TVK's V.S. Babu by 9,122 votes, becoming first sitting CM to lose own constituency in 59 years. Resigned May 5. Udhayanidhi Stalin barely survives in Chepauk by 7,140 votes. DMK leadership in crisis", color: "#2196F3" },
+  { title: "Stalin's Historic Defeat: First Sitting CM to Lose Own Seat Since 1967", desc: "M.K. Stalin loses Kolathur to TVK's V.S. Babu by 15,192 votes, becoming first sitting CM to lose own constituency in 59 years. Resigned May 5. Udhayanidhi Stalin barely survives in Chepauk by 7,140 votes. DMK leadership in crisis", color: "#2196F3" },
   { title: "Chennai Revolution: TVK Achieves Perfect 16/16 Clean Sweep", desc: "TVK wins ALL 16 Chennai seats with 86.2% turnout. Complete urban revolt against establishment politics. Even DMK strongholds fall to celebrity politician. Vijay's fan base converts to political machinery delivering unprecedented capital city domination", color: "#9C27B0" },
   { title: "Left Parties Historic Switch: Abandon DMK for TVK Coalition", desc: "CPI, CPI(M), VCK abandon decades-long DMK alliance to support TVK government. Call it 'democratic duty' to support largest party. Provide 6 crucial MLAs while staying in SPA on paper. DMK furious as INDIA bloc fractures in Tamil Nadu", color: "#E53935" },
   { title: "Congress Betrays DMK: Switches Sides for TVK Coalition Share", desc: "Tamil Nadu Congress breaks 19-year DMK alliance to join TVK government. TNCC provides 5 MLAs for coalition. National Congress leaders attend Vijay's swearing-in. DMK calls it 'backstabbing' as INDIA alliance cracks in state", color: "#FFC107" },
