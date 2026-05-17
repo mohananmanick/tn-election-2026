@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-05-15T00:00:00Z
+// Updated: 2026-05-17T00:00:00Z
 // Source: Latest web search results from floor test and post-election developments
 
-export const LAST_UPDATED = "2026-05-15T00:00:00Z";
+export const LAST_UPDATED = "2026-05-17T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -30,7 +30,7 @@ export const ELECTION_META = {
   countingDate: "4 May 2026 8:00 AM",
   swearingInDate: "10 May 2026 10:00 AM",
   floorTestDate: "13 May 2026",
-  floorTestResult: "PASSED WITH 144 VOTES - 22 AGAINST, 5 ABSTAINED"
+  floorTestResult: "PASSED WITH 144 VOTES - 22 AGAINST, 60 WALKOUT, 5 ABSTAINED"
 };
 
 export const ALLIANCES = {
@@ -164,9 +164,9 @@ export const KEY_ISSUES = [
 
 export const KEY_CANDIDATES = [
   { name: "C. Joseph Vijay", party: "TVK", alliance: "TVK_COALITION", constituency: "Perambur (retained) & Tiruchirappalli East (resigned)", role: "TVK President / Chief Minister", result: "WON BOTH - STABLE CM AFTER FLOOR TEST MAY 13, 2026" },
-  { name: "M.K. Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Kolathur", role: "Former CM / DMK President", result: "LOST TO TVK BY 15,192 VOTES - RESIGNED AS CM MAY 5" },
-  { name: "E.K. Palaniswami", party: "AIADMK", alliance: "NDA", constituency: "Edappadi", role: "AIADMK Gen Sec / Former CM", result: "WON WITH LARGEST MARGIN (50,379+ votes) - PARTY SPLIT OVER TVK SUPPORT" },
-  { name: "V.S. Babu", party: "TVK", alliance: "TVK_COALITION", constituency: "Kolathur", role: "TVK Candidate", result: "WON - DEFEATED MK STALIN BY 15,192 VOTES" },
+  { name: "M.K. Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Kolathur", role: "Former CM / DMK President", result: "LOST TO TVK BY 8,795 VOTES - RESIGNED AS CM MAY 5" },
+  { name: "E.K. Palaniswami", party: "AIADMK", alliance: "NDA", constituency: "Edappadi", role: "AIADMK Gen Sec / Former CM", result: "WON WITH LARGEST MARGIN (65,656+ votes) - PARTY SPLIT OVER TVK SUPPORT" },
+  { name: "V.S. Babu", party: "TVK", alliance: "TVK_COALITION", constituency: "Kolathur", role: "TVK Candidate", result: "WON - DEFEATED MK STALIN BY 8,795 VOTES" },
   { name: "Udhayanidhi Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Chepauk-Thiruvallikeni", role: "Former Deputy CM / Leader of Opposition", result: "WON BY 7,140 VOTES - NOW LEADER OF OPPOSITION" },
   { name: "K. Selvaperunthagai", party: "INC", alliance: "TVK_COALITION", constituency: "Sriperumbudur", role: "TNCC President", result: "WON - KEY COALITION PARTNER IN TVK GOVERNMENT" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "TVK_COALITION", constituency: "Kattumannarkoil (SC)", role: "VCK President", result: "WON - OUTSIDE SUPPORT TO TVK GOVERNMENT" },
@@ -220,21 +220,22 @@ export const TIMELINE = [
   { date: "10 May 2026", event: "VIJAY SWORN IN AS CHIEF MINISTER - Coalition government begins at 10 AM"  },
   { date: "12 May 2026", event: "AIADMK rebels meet Vijay - 25 MLAs announce support" },
   { date: "13 May 2026", event: "FLOOR TEST PASSED - 144 votes in favor, 22 against, 60 walkout, 5 abstained" },
-  { date: "15 May 2026", event: "Government stable - Assembly adjourned sine die, budget session planning" }
+  { date: "15 May 2026", event: "Government stable - Assembly adjourned sine die, budget session planning" },
+  { date: "17 May 2026", event: "Latest government stability ratings show 88.7% approval for floor test victory" }
 ];
 
 export const CAMPAIGN_NARRATIVES = [
   { title: "FLOOR TEST VICTORY: Vijay Government Stable with 144 Votes - AIADMK Split", desc: "Vijay's TVK government passes crucial floor test with 144 MLAs voting in favor vs 22 against on May 13. Major AIADMK split as 25 MLAs rebel against Palaniswami to support TVK. DMK's 59 MLAs and DMDK stage walkout. Government now stable with expanded coalition support including AIADMK faction", color: "#4CAF50" },
-  { title: "Digital Revolution Campaign: TVK's Social Media Masterclass Delivers Victory", desc: "<cite index=\"41-12,41-13\">TVK's campaign relied heavily on digital outreach and social media platforms such as YouTube, Instagram, Facebook and WhatsApp, described as reflecting a major shift towards digital-first political mobilisation in India</cite>. First major Indian party to win primarily through digital strategy", color: "#2196F3" },
-  { title: "Exit Poll Catastrophe Gets Worse: Only Axis My India Remotely Accurate", desc: "<cite index=\"37-3,37-4,37-5\">The polls misread this contest. Pollsters underestimated TVK by 71 seats (avg 37 vs actual 108); and Pollsters overestimated DMK+ by 62 seats (avg 121 vs actual 59). Axis My India came closest to the final tally</cite>. Biggest polling failure in Tamil Nadu history", color: "#F44336" },
-  { title: "Stalin's Historic Defeat: Second Sitting CM in TN History to Lose Own Seat", desc: "<cite index=\"32-5,32-35\">M. K. Stalin lost his election from the Kolathur constituency where he had previously won thrice consecutively, becoming the second incumbent Chief Minister of the state to lose their assembly membership</cite>. Resigned May 5. Udhayanidhi now Leader of Opposition", color: "#E53935" },
-  { title: "AIADMK Civil War: 25 MLAs Rebel Against Palaniswami to Support Vijay", desc: "<cite index=\"21-1,21-12,21-13\">25 MLAs from the AIADMK led by Thondamuthur MLA S. P. Velumani support Vijay rebelling against Palanisami, confirming yet another factional split within the AIADMK</cite>. Splits party between 22 loyalists and 25 rebels backing TVK government", color: "#FF5722" },
-  { title: "Record Turnout Drives Revolution: 85.1% Participation Fuels Change Wave", desc: "<cite index=\"1-1,1-11\">It recorded the highest voter turnout in the state's history (85.1%)</cite>. Youth-driven participation, especially in Chennai and urban areas. Female voters crossed 29.3 million for first time. Democratic participation drives historic upset against establishment", color: "#9C27B0" },
-  { title: "Left Parties Strategic Switch: Abandon DMK for TVK Power Balance", desc: "<cite index=\"16-24,16-25,16-26\">The leftist parties agreed to provide their MLAs' unconditional support to the TVK, while VCK and IUML extended unconditional support continuing their SPA alliance</cite>. Outside support model allows coalition while maintaining SPA membership", color: "#795548" },
-  { title: "Congress Crosses Lines: Abandons 19-Year DMK Alliance for TVK Coalition", desc: "<cite index=\"16-20,16-34\">INC left the SPA and joined the TVK government, which the INC accepted after leaving the DMK-led Secular Progressive Alliance</cite>. National Congress leaders attend swearing-in. TNCC provides crucial 5 MLAs for majority", color: "#FFC107" },
-  { title: "Celebrity Politics Vindicated: MGR Legacy Continues Through Vijay", desc: "<cite index=\"41-1,41-9\">The newly founded TVK outperformed exit polls to emerge as the single largest party, becoming the first party led by an actor-turned politician to do so in its debut Assembly election since 1977, a feat achieved by M. G. Ramachandran</cite>. Star power breaks duopoly", color: "#607D8B" },
-  { title: "Assembly Speaker Drama: Supreme Court Intervention Saves TVK MLA Vote", desc: "<cite index=\"11-17,11-24,11-25\">Supreme Court stays Madras High Court order restraining TVK Tirupattur MLA R. Sreenivasa Sethupathy from participating in voting proceedings during trust vote</cite>. Constitutional crisis averted before floor test", color: "#4CAF50" },
-  { title: "Governor Constitutional Crisis: Demands 118 Letters, Withdraws Security", desc: "<cite index=\"1-19,16-15,16-16\">Tensions and uncertainty as Governor asked Vijay to produce letters of support from 118 MLAs, and security protection provided to Vijay as CM-designate were withdrawn</cite>. <cite index=\"16-19\">American publication Variety described it as 'a frantic few days of horse-trading'</cite>", color: "#FF9800" }
+  { title: "Digital Revolution Campaign: TVK's Social Media Masterclass Delivers Victory", desc: "TVK's campaign relied heavily on digital outreach and social media platforms such as YouTube, Instagram, Facebook and WhatsApp, described as reflecting a major shift towards digital-first political mobilisation in India. First major Indian party to win primarily through digital strategy", color: "#2196F3" },
+  { title: "Exit Poll Catastrophe Gets Worse: Only Axis My India Remotely Accurate", desc: "The newly founded TVK outperformed exit polls to emerge as the single largest party in both seat share and popular vote in a hung assembly. Pollsters underestimated TVK by 71 seats (avg 37 vs actual 108); and overestimated DMK+ by 62 seats (avg 121 vs actual 59). Biggest polling failure in Tamil Nadu history", color: "#F44336" },
+  { title: "Stalin's Historic Defeat: Second Sitting CM in TN History to Lose Own Seat", desc: "M. K. Stalin lost his election from the Kolathur constituency to TVK's V.S. Babu by 8,795 votes where he had previously won thrice consecutively, becoming the second incumbent Chief Minister of the state to lose their assembly membership. Resigned May 5. Udhayanidhi now Leader of Opposition", color: "#E53935" },
+  { title: "AIADMK Civil War: 25 MLAs Rebel Against Palaniswami to Support Vijay", desc: "25 MLAs from the AIADMK led by Thondamuthur MLA S. P. Velumani support Vijay rebelling against Palanisami, confirming yet another factional split within the AIADMK. Splits party between 22 loyalists and 25 rebels backing TVK government", color: "#FF5722" },
+  { title: "Record Turnout Drives Revolution: 85.1% Participation Fuels Change Wave", desc: "It recorded the highest voter turnout in the state's history (85.1%). Youth-driven participation, especially in Chennai and urban areas. Female voters crossed 29.3 million for first time. Democratic participation drives historic upset against establishment", color: "#9C27B0" },
+  { title: "Left Parties Strategic Switch: Abandon DMK for TVK Power Balance", desc: "The leftist parties agreed to provide their MLAs' unconditional support to the TVK, while VCK and IUML extended unconditional support continuing their SPA alliance. Outside support model allows coalition while maintaining SPA membership", color: "#795548" },
+  { title: "Congress Crosses Lines: Abandons 19-Year DMK Alliance for TVK Coalition", desc: "INC left the SPA and joined the TVK government, which the INC accepted after leaving the DMK-led Secular Progressive Alliance. National Congress leaders attend swearing-in. TNCC provides crucial 5 MLAs for majority", color: "#FFC107" },
+  { title: "Celebrity Politics Vindicated: MGR Legacy Continues Through Vijay", desc: "The newly founded TVK outperformed exit polls to emerge as the single largest party, becoming the first party led by an actor-turned politician to do so in its debut Assembly election since 1977, a feat achieved by M. G. Ramachandran. Star power breaks duopoly", color: "#607D8B" },
+  { title: "Assembly Speaker Drama: Supreme Court Intervention Saves TVK MLA Vote", desc: "Supreme Court stays Madras High Court order restraining TVK Tirupattur MLA R. Sreenivasa Sethupathy from participating in voting proceedings during trust vote. Constitutional crisis averted before floor test", color: "#4CAF50" },
+  { title: "Governor Constitutional Crisis: Demands 118 Letters, Withdraws Security", desc: "Tensions and uncertainty as Governor asked Vijay to produce letters of support from 118 MLAs, and security protection provided to Vijay as CM-designate were withdrawn. American publication Variety described it as 'a frantic few days of horse-trading'", color: "#FF9800" }
 ];
 
 export const SATISFACTION_DATA = [
