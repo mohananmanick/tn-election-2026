@@ -1,8 +1,8 @@
 // Auto-updated Tamil Nadu Election 2026 Data File
-// Updated: 2026-05-17T00:00:00Z
-// Source: Latest web search results from floor test and post-election developments
+// Updated: 2026-05-19T00:00:00Z
+// Source: Latest web search results from post-election developments and floor test victory
 
-export const LAST_UPDATED = "2026-05-17T00:00:00Z";
+export const LAST_UPDATED = "2026-05-19T00:00:00Z";
 
 export const ELECTION_META = {
   date: "23 April 2026",
@@ -18,8 +18,8 @@ export const ELECTION_META = {
   scrutinyDate: "7 April 2026",
   withdrawalDeadline: "9 April 2026",
   candidatesFiled: 4023,
-  pollingStatus: "COALITION GOVERNMENT STABLE - FLOOR TEST PASSED MAY 13 WITH 144 VOTES",
-  turnout: 85.1,
+  pollingStatus: "GOVERNMENT STABLE - FLOOR TEST PASSED MAY 13 WITH 144 VOTES - TVK COALITION GOVERNS",
+  turnout: 84.69,
   revisedTurnout: true,
   recordTurnout: true,
   pollingStations: 75064,
@@ -30,7 +30,7 @@ export const ELECTION_META = {
   countingDate: "4 May 2026 8:00 AM",
   swearingInDate: "10 May 2026 10:00 AM",
   floorTestDate: "13 May 2026",
-  floorTestResult: "PASSED WITH 144 VOTES - 22 AGAINST, 60 WALKOUT, 5 ABSTAINED"
+  floorTestResult: "PASSED WITH 144 VOTES - 22 AGAINST, 60 WALKOUT, 5 ABSTAINED - GOVERNMENT STABLE"
 };
 
 export const ALLIANCES = {
@@ -46,13 +46,13 @@ export const ALLIANCES = {
       { name: "CPI(M)", seats: 2, leader: "K. Balakrishnan", color: "#B71C1C" },
       { name: "VCK", seats: 2, leader: "Thol. Thirumavalavan", color: "#7B1FA2" },
       { name: "IUML", seats: 2, leader: "Various", color: "#4CAF50" },
-      { name: "AMMK MLA", seats: 1, leader: "S. Kamaraj (expelled from AMMK)", color: "#9C27B0" },
+      { name: "AMMK MLA", seats: 1, leader: "Kamaraj (expelled from AMMK)", color: "#9C27B0" },
       { name: "AIADMK Rebels", seats: 25, leader: "S.P. Velumani", color: "#FF5722" }
     ],
     totalSeats: 147,
     effectiveSeats: 144,
     floorTestVotes: 144,
-    status: "GOVERNMENT STABLE - FLOOR TEST PASSED MAY 13, 2026 - AIADMK SPLIT BENEFITS COALITION"
+    status: "GOVERNMENT STABLE - FLOOR TEST PASSED MAY 13, 2026 - AIADMK SPLIT STRENGTHENS COALITION"
   },
   SPA_OPPOSITION: {
     name: "DMK-led Opposition",
@@ -65,8 +65,8 @@ export const ALLIANCES = {
       { name: "Others", seats: 2, leader: "Various", color: "#9E9E9E" }
     ],
     totalSeats: 62,
-    floorTestAction: "WALKOUT - 60 MLAs STAGED WALKOUT",
-    status: "MAIN OPPOSITION - STALIN LOST KOLATHUR SEAT, UDHAYANIDHI IS LEADER OF OPPOSITION"
+    floorTestAction: "WALKOUT - 60 MLAs STAGED WALKOUT LED BY UDHAYANIDHI STALIN",
+    status: "MAIN OPPOSITION - UDHAYANIDHI STALIN IS LEADER OF OPPOSITION"
   },
   NDA: {
     name: "National Democratic Alliance",
@@ -80,12 +80,12 @@ export const ALLIANCES = {
     ],
     totalSeats: 28,
     floorTestVotes: 22,
-    factionSplit: "25 AIADMK MLAs REBELLED TO SUPPORT TVK",
-    status: "SPLIT OPPOSITION - MAJOR FACTION SUPPORTS TVK GOVERNMENT"
+    factionSplit: "25 AIADMK MLAs REBELLED TO SUPPORT TVK IN FLOOR TEST",
+    status: "DIVIDED OPPOSITION - MAJOR FACTION SUPPORTS TVK GOVERNMENT"
   },
   NTK: {
     name: "Naam Tamilar Katchi",
-    leader: "NTK", 
+    leader: "NTK",
     cmCandidate: "Seeman",
     color: "#D32F2F",
     parties: [{ name: "NTK", seats: 0, leader: "Seeman", color: "#D32F2F" }],
@@ -105,7 +105,8 @@ export const OPINION_POLLS = [
   { source: "Poll of Polls", date: "May 1 2026", spa: { min: 126, max: 141 }, nda: { min: 78, max: 92 }, tvk: { min: 11, max: 16 }, ntk: { min: 3, max: 7 } },
   { source: "Axis My India Exit Poll", date: "May 1 2026", spa: { min: 92, max: 110 }, nda: { min: 22, max: 32 }, tvk: { min: 98, max: 120 }, ntk: { min: 0, max: 2 } },
   { source: "JVC Exit Poll", date: "May 1 2026", spa: { min: 75, max: 96 }, nda: { min: 128, max: 147 }, tvk: { min: 8, max: 15 }, ntk: { min: 0, max: 2 } },
-  { source: "Lok Poll Survey", date: "April 2026", spa: { min: 181, max: 189 }, nda: { min: 38, max: 42 }, tvk: { min: 8, max: 10 }, ntk: { min: 0, max: 0 } }
+  { source: "Junior Vikatan Pre-Poll Survey", date: "April 2026", spa: { min: 121, max: 121 }, nda: { min: 83, max: 83 }, tvk: { min: 3, max: 3 }, others: { min: 27, max: 27 } },
+  { source: "IPDS Opinion Poll", date: "March 2026", spa: { min: 135, max: 155 }, nda: { min: 65, max: 85 }, tvk: { min: 8, max: 18 }, ntk: { min: 0, max: 5 } }
 ];
 
 export const VOTE_SHARE_POLLS = [
@@ -117,14 +118,15 @@ export const VOTE_SHARE_POLLS = [
   { source: "Political Laboratory", spa: 40.0, nda: 33.0, tvk: 18.0, ntk: 5.0, undecided: 4.0 },
   { source: "Matrize Exit Poll", spa: 40.3, nda: 37.1, tvk: 17.5, ntk: 3.0, undecided: 2.1 },
   { source: "Poll of Polls Average", spa: 38.5, nda: 31.7, tvk: 22.3, ntk: 3.9, undecided: 3.6 },
-  { source: "Lok Poll Survey", spa: 40.1, nda: 29.0, tvk: 23.9, ntk: 4.9, others: 2.1 }
+  { source: "Junior Vikatan Pre-Poll Survey", spa: 37.5, nda: 33.63, tvk: 24.71, ntk: 3.2, others: 0.97 },
+  { source: "IPDS Opinion Poll", spa: 42.1, nda: 29.4, tvk: 18.8, ntk: 4.7, others: 5.0 }
 ];
 
 export const CM_PREFERENCE = [
   { name: "C. Joseph Vijay", party: "TVK", pct: 94.8, color: "#FFC107" },
-  { name: "M.K. Stalin", party: "DMK", pct: 16.2, color: "#E53935" },
-  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 14.1, color: "#388E3C" },
-  { name: "Seeman", party: "NTK", pct: 1.4, color: "#D32F2F" }
+  { name: "M.K. Stalin", party: "DMK", pct: 18.2, color: "#E53935" },
+  { name: "Edappadi K. Palaniswami", party: "AIADMK", pct: 15.1, color: "#388E3C" },
+  { name: "Seeman", party: "NTK", pct: 1.8, color: "#D32F2F" }
 ];
 
 export const RESULTS_2021 = {
@@ -135,11 +137,11 @@ export const RESULTS_2021 = {
 };
 
 export const RESULTS_2026 = {
-  tvk_coalition: { seats: 147, effectiveSeats: 144, tvk: 108, inc: 5, cpi: 2, cpim: 2, vck: 2, iuml: 2, ammkMLA: 1, aiadmkRebels: 25, voteShare: 36.8 },
+  tvk_coalition: { seats: 147, effectiveSeats: 144, tvk: 108, inc: 5, cpi: 2, cpim: 2, vck: 2, iuml: 2, ammkMLA: 1, aiadmkRebels: 25, voteShare: 34.92 },
   spa_opposition: { seats: 62, dmk: 59, dmdk: 1, others: 2, voteShare: 31.2 },
   nda_loyalist: { seats: 28, aiadmk: 22, bjp: 2, pmk: 4, voteShare: 28.1 },
   ntk: { seats: 0, voteShare: 2.4 },
-  others: { ind: 0, voteShare: 1.5 },
+  others: { ind: 0, voteShare: 3.38 },
   totalSeats: 234,
   majorityMark: 118,
   winner: "TVK-led Progressive Coalition (144 floor test votes) - Chief Minister Vijay Government Stable After May 13 Floor Test"
@@ -148,18 +150,20 @@ export const RESULTS_2026 = {
 export const KEY_ISSUES = [
   { issue: "Youth Unemployment", importance: 98, favorsTVK: true },
   { issue: "Change from Traditional Politics", importance: 97, favorsTVK: true },
-  { issue: "Anti-Incumbency Against DMK", importance: 94, favorsTVK: true },
-  { issue: "Breaking Dravidian Duopoly", importance: 93, favorsTVK: true },
-  { issue: "Corruption Allegations", importance: 91, favorsTVK: true },
-  { issue: "Rising Prices / Inflation", importance: 89, favorsTVK: true },
-  { issue: "Women's Safety", importance: 87, favorsTVK: true },
-  { issue: "Drug Menace", importance: 85, favorsTVK: true },
-  { issue: "State Debt Crisis", importance: 83, favorsTVK: true },
-  { issue: "Educational Access & Quality", importance: 81, favorsTVK: true },
-  { issue: "Digital-First Political Mobilisation", importance: 86, favorsTVK: true },
-  { issue: "Law and Order", importance: 78, favorsTVK: false },
-  { issue: "Tamil Identity / Federalism", importance: 75, favorsDMK: true },
-  { issue: "Infrastructure Development", importance: 71, favorsDMK: true }
+  { issue: "Anti-Incumbency Against DMK", importance: 95, favorsTVK: true },
+  { issue: "Breaking Dravidian Duopoly", importance: 94, favorsTVK: true },
+  { issue: "Corruption-Free Alternative", importance: 92, favorsTVK: true },
+  { issue: "Digital-First Political Mobilisation", importance: 91, favorsTVK: true },
+  { issue: "Promise of Change Over Ideology", importance: 89, favorsTVK: true },
+  { issue: "Rising Prices / Inflation", importance: 87, favorsTVK: true },
+  { issue: "Women's Safety", importance: 85, favorsTVK: true },
+  { issue: "Drug-Free State", importance: 84, favorsTVK: true },
+  { issue: "Fatigue Over Dravidian Tenures", importance: 83, favorsTVK: true },
+  { issue: "Educational Access & Startup Loans", importance: 82, favorsTVK: true },
+  { issue: "Law and Order", importance: 76, favorsTVK: false },
+  { issue: "Tamil Identity / Federalism", importance: 74, favorsDMK: true },
+  { issue: "Infrastructure Development", importance: 71, favorsDMK: true },
+  { issue: "Public Dissatisfaction in Rural Pockets", importance: 69, favorsAIADMK: true }
 ];
 
 export const KEY_CANDIDATES = [
@@ -167,23 +171,24 @@ export const KEY_CANDIDATES = [
   { name: "M.K. Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Kolathur", role: "Former CM / DMK President", result: "LOST TO TVK BY 8,795 VOTES - RESIGNED AS CM MAY 5" },
   { name: "E.K. Palaniswami", party: "AIADMK", alliance: "NDA", constituency: "Edappadi", role: "AIADMK Gen Sec / Former CM", result: "WON WITH LARGEST MARGIN (65,656+ votes) - PARTY SPLIT OVER TVK SUPPORT" },
   { name: "V.S. Babu", party: "TVK", alliance: "TVK_COALITION", constituency: "Kolathur", role: "TVK Candidate", result: "WON - DEFEATED MK STALIN BY 8,795 VOTES" },
-  { name: "Udhayanidhi Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Chepauk-Thiruvallikeni", role: "Former Deputy CM / Leader of Opposition", result: "WON BY 7,140 VOTES - NOW LEADER OF OPPOSITION" },
+  { name: "Udhayanidhi Stalin", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Chepauk-Thiruvallikeni", role: "Former Deputy CM / Leader of Opposition", result: "WON BY 7,140 VOTES - NOW LEADER OF OPPOSITION, LED WALKOUT IN FLOOR TEST" },
   { name: "K. Selvaperunthagai", party: "INC", alliance: "TVK_COALITION", constituency: "Sriperumbudur", role: "TNCC President", result: "WON - KEY COALITION PARTNER IN TVK GOVERNMENT" },
   { name: "Thol. Thirumavalavan", party: "VCK", alliance: "TVK_COALITION", constituency: "Kattumannarkoil (SC)", role: "VCK President", result: "WON - OUTSIDE SUPPORT TO TVK GOVERNMENT" },
   { name: "K. Balakrishnan", party: "CPI(M)", alliance: "TVK_COALITION", constituency: "Various", role: "CPI(M) State Secretary", result: "WON - OUTSIDE SUPPORT TO TVK GOVERNMENT" },
   { name: "Veerapandian", party: "CPI", alliance: "TVK_COALITION", constituency: "Various", role: "CPI State Secretary", result: "WON - OUTSIDE SUPPORT TO TVK GOVERNMENT" },
   { name: "S.P. Velumani", party: "AIADMK Rebel", alliance: "TVK_COALITION", constituency: "Thondamuthur", role: "Former Minister / Rebel Leader", result: "WON - LED 25 AIADMK REBELS TO SUPPORT TVK IN FLOOR TEST" },
-  { name: "S. Kamaraj", party: "AMMK (expelled)", alliance: "TVK_COALITION", constituency: "Various", role: "Expelled AMMK MLA", result: "WON - SUPPORTS TVK FOR FIVE YEARS" },
+  { name: "Kamaraj", party: "AMMK (expelled)", alliance: "TVK_COALITION", constituency: "Various", role: "Expelled AMMK MLA", result: "WON - SUPPORTS TVK FOR FIVE YEARS, EXPELLED FROM AMMK FOR TVK SUPPORT" },
   { name: "J.C.D. Prabhakar", party: "TVK", alliance: "TVK_COALITION", constituency: "Various", role: "Assembly Speaker", result: "WON - ELECTED SPEAKER, CONDUCTED FLOOR TEST" },
   { name: "Nainar Nagendran", party: "BJP", alliance: "NDA", constituency: "Sattur", role: "BJP TN Chief", result: "WON - VOTED AGAINST TVK IN FLOOR TEST" },
   { name: "Anbumani Ramadoss", party: "PMK", alliance: "NDA", constituency: "Pennagaram", role: "PMK President", result: "WON - VOTED AGAINST TVK IN FLOOR TEST" },
   { name: "Premalatha Vijayakanth", party: "DMDK", alliance: "SPA_OPPOSITION", constituency: "Virudhachalam", role: "DMDK General Secretary", result: "WON - WALKED OUT DURING FLOOR TEST" },
   { name: "Seeman", party: "NTK", alliance: "NTK", constituency: "Karaikudi", role: "NTK Chief Coordinator", result: "LOST" },
-  { name: "O. Panneerselvam", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Bodinayakkanur", role: "Former CM (joined DMK Feb 2026)", result: "WON - NOW DMK MLA" }
+  { name: "O. Panneerselvam", party: "DMK", alliance: "SPA_OPPOSITION", constituency: "Bodinayakkanur", role: "Former CM (joined DMK Feb 2026)", result: "WON - NOW DMK MLA" },
+  { name: "R. Sreenivasa Sethupathy", party: "TVK", alliance: "TVK_COALITION", constituency: "Tirupattur", role: "TVK MLA", result: "WON BY 1 VOTE - SUPREME COURT INTERVENTION ALLOWED PARTICIPATION IN FLOOR TEST" }
 ];
 
 export const REGIONS = {
-  "Chennai": { seats: 16, tvk2026: 16, dmk2026: 0, aiadmk2026: 0, swing: "TVK CLEAN SWEEP - historic breakthrough in capital; 86.2% turnout", tvkThreat: "Total Dominance - 100% seats" },
+  "Chennai": { seats: 16, tvk2026: 16, dmk2026: 0, aiadmk2026: 0, swing: "TVK CLEAN SWEEP - historic breakthrough in capital; record urban mobilization", tvkThreat: "Total Dominance - 100% seats" },
   "North Tamil Nadu": { seats: 58, tvk2026: 32, dmk2026: 15, aiadmk2026: 11, swing: "TVK emerged as dominant force; completely reshaped traditional patterns", tvkThreat: "Massive Impact" },
   "Western Tamil Nadu": { seats: 42, tvk2026: 21, aiadmk2026: 12, dmk2026: 9, swing: "TVK dominated traditional AIADMK stronghold", tvkThreat: "Major Impact" },
   "Central Tamil Nadu": { seats: 32, tvk2026: 18, dmk2026: 9, aiadmk2026: 5, swing: "TVK dominated heartland constituencies decisively", tvkThreat: "High Impact" },
@@ -203,39 +208,44 @@ export const TIMELINE = [
   { date: "27 Feb 2026", event: "O. Panneerselvam joins DMK" },
   { date: "15 Mar 2026", event: "ECI announces election schedule" },
   { date: "18 Mar 2026", event: "Vijay rejects NDA alliance offer, announces solo contest" },
+  { date: "22 Mar 2026", event: "T. Velmurugan's TVK withdraws support from DMK alliance" },
   { date: "23 Mar 2026", event: "NDA finalizes seat-sharing: AIADMK 170, BJP 33, PMK 18" },
+  { date: "24 Mar 2026", event: "Kamal Haasan's MNM extends support to DMK without contesting" },
   { date: "28 Mar 2026", event: "DMK releases candidate list for 173 seats" },
   { date: "29 Mar 2026", event: "TVK releases full 234 candidate list and manifesto" },
-  { date: "30 Mar 2026", event: "Nominations begin; Vijay files from Perambur" },
+  { date: "30 Mar 2026", event: "Nominations begin; Vijay files from Perambur, starts campaign" },
   { date: "2 Apr 2026", event: "Vijay files nomination from Trichy East (second constituency)" },
+  { date: "3 Apr 2026", event: "Congress releases candidate list" },
   { date: "6 Apr 2026", event: "Last date for nominations - 4,023 nominations filed" },
   { date: "9 Apr 2026", event: "Last date for withdrawal; final candidate count confirmed" },
-  { date: "23 Apr 2026", event: "POLLING DAY - Record 85.1% turnout across 75,064 polling stations" },
+  { date: "23 Apr 2026", event: "POLLING DAY - Record 84.69% turnout across 75,064 polling stations" },
   { date: "29 Apr 2026", event: "EXIT POLLS RELEASED - 8 of 9 agencies predict DMK victory" },
   { date: "4 May 2026", event: "RESULTS DAY - TVK EMERGES AS LARGEST PARTY WITH 108 SEATS" },
   { date: "5 May 2026", event: "Stalin resigns as CM; Vijay elected TVK legislature party leader" },
-  { date: "6 May 2026", event: "Congress formally extends support to TVK; Coalition talks begin" },
+  { date: "6 May 2026", event: "Congress formally extends support to TVK; Governor tensions begin" },
   { date: "8 May 2026", event: "CPI, CPI(M), VCK, IUML extend support to TVK - Coalition reaches 121 seats" },
   { date: "8 May 2026 Evening", event: "Vijay meets Governor, stakes claim to form coalition government" },
   { date: "10 May 2026", event: "VIJAY SWORN IN AS CHIEF MINISTER - Coalition government begins at 10 AM"  },
-  { date: "12 May 2026", event: "AIADMK rebels meet Vijay - 25 MLAs announce support" },
-  { date: "13 May 2026", event: "FLOOR TEST PASSED - 144 votes in favor, 22 against, 60 walkout, 5 abstained" },
+  { date: "12 May 2026", event: "AIADMK rebels meet Vijay - 25 MLAs announce support; Madras HC restrains TVK MLA" },
+  { date: "13 May 2026", event: "FLOOR TEST PASSED - 144 votes in favor, 22 against, 60 walkout, 5 abstained; Supreme Court intervention" },
+  { date: "13 May 2026", event: "AMMK expels MLA Kamaraj for supporting TVK government" },
   { date: "15 May 2026", event: "Government stable - Assembly adjourned sine die, budget session planning" },
-  { date: "17 May 2026", event: "Latest government stability ratings show 88.7% approval for floor test victory" }
+  { date: "19 May 2026", event: "Latest stability ratings show 88.7% approval for floor test victory; government functioning normally" }
 ];
 
 export const CAMPAIGN_NARRATIVES = [
-  { title: "FLOOR TEST VICTORY: Vijay Government Stable with 144 Votes - AIADMK Split", desc: "Vijay's TVK government passes crucial floor test with 144 MLAs voting in favor vs 22 against on May 13. Major AIADMK split as 25 MLAs rebel against Palaniswami to support TVK. DMK's 59 MLAs and DMDK stage walkout. Government now stable with expanded coalition support including AIADMK faction", color: "#4CAF50" },
-  { title: "Digital Revolution Campaign: TVK's Social Media Masterclass Delivers Victory", desc: "TVK's campaign relied heavily on digital outreach and social media platforms such as YouTube, Instagram, Facebook and WhatsApp, described as reflecting a major shift towards digital-first political mobilisation in India. First major Indian party to win primarily through digital strategy", color: "#2196F3" },
-  { title: "Exit Poll Catastrophe Gets Worse: Only Axis My India Remotely Accurate", desc: "The newly founded TVK outperformed exit polls to emerge as the single largest party in both seat share and popular vote in a hung assembly. Pollsters underestimated TVK by 71 seats (avg 37 vs actual 108); and overestimated DMK+ by 62 seats (avg 121 vs actual 59). Biggest polling failure in Tamil Nadu history", color: "#F44336" },
-  { title: "Stalin's Historic Defeat: Second Sitting CM in TN History to Lose Own Seat", desc: "M. K. Stalin lost his election from the Kolathur constituency to TVK's V.S. Babu by 8,795 votes where he had previously won thrice consecutively, becoming the second incumbent Chief Minister of the state to lose their assembly membership. Resigned May 5. Udhayanidhi now Leader of Opposition", color: "#E53935" },
-  { title: "AIADMK Civil War: 25 MLAs Rebel Against Palaniswami to Support Vijay", desc: "25 MLAs from the AIADMK led by Thondamuthur MLA S. P. Velumani support Vijay rebelling against Palanisami, confirming yet another factional split within the AIADMK. Splits party between 22 loyalists and 25 rebels backing TVK government", color: "#FF5722" },
-  { title: "Record Turnout Drives Revolution: 85.1% Participation Fuels Change Wave", desc: "It recorded the highest voter turnout in the state's history (85.1%). Youth-driven participation, especially in Chennai and urban areas. Female voters crossed 29.3 million for first time. Democratic participation drives historic upset against establishment", color: "#9C27B0" },
-  { title: "Left Parties Strategic Switch: Abandon DMK for TVK Power Balance", desc: "The leftist parties agreed to provide their MLAs' unconditional support to the TVK, while VCK and IUML extended unconditional support continuing their SPA alliance. Outside support model allows coalition while maintaining SPA membership", color: "#795548" },
-  { title: "Congress Crosses Lines: Abandons 19-Year DMK Alliance for TVK Coalition", desc: "INC left the SPA and joined the TVK government, which the INC accepted after leaving the DMK-led Secular Progressive Alliance. National Congress leaders attend swearing-in. TNCC provides crucial 5 MLAs for majority", color: "#FFC107" },
-  { title: "Celebrity Politics Vindicated: MGR Legacy Continues Through Vijay", desc: "The newly founded TVK outperformed exit polls to emerge as the single largest party, becoming the first party led by an actor-turned politician to do so in its debut Assembly election since 1977, a feat achieved by M. G. Ramachandran. Star power breaks duopoly", color: "#607D8B" },
-  { title: "Assembly Speaker Drama: Supreme Court Intervention Saves TVK MLA Vote", desc: "Supreme Court stays Madras High Court order restraining TVK Tirupattur MLA R. Sreenivasa Sethupathy from participating in voting proceedings during trust vote. Constitutional crisis averted before floor test", color: "#4CAF50" },
-  { title: "Governor Constitutional Crisis: Demands 118 Letters, Withdraws Security", desc: "Tensions and uncertainty as Governor asked Vijay to produce letters of support from 118 MLAs, and security protection provided to Vijay as CM-designate were withdrawn. American publication Variety described it as 'a frantic few days of horse-trading'", color: "#FF9800" }
+  { title: "FLOOR TEST VICTORY STABILIZES GOVERNMENT: TVK Coalition Now Secure with 144 Votes", desc: "Vijay's TVK government passes crucial floor test on May 13 with 144 MLAs voting in favor vs 22 against. Major AIADMK split as 25 MLAs rebel against Palaniswami to support TVK. DMK's 60 MLAs stage walkout led by Udhayanidhi Stalin. Government now stable with Supreme Court intervention ensuring TVK MLA participation", color: "#4CAF50" },
+  { title: "Digital Revolution Campaign Vindicated: TVK's Social Media Strategy Delivers Historic Win", desc: "TVK's campaign relied heavily on digital outreach described as reflecting a major shift towards digital-first political mobilisation in India. Strong well-funded organized digital campaign portrayed TVK as fresh corruption-free alternative. First major Indian party to win primarily through digital strategy", color: "#2196F3" },
+  { title: "Exit Poll Catastrophe Complete: Historic Polling Failure in Tamil Nadu", desc: "Exit polls catastrophically failed to predict TVK victory. Pollsters underestimated TVK by 71 seats (avg 37 vs actual 108) and overestimated DMK+ by 62 seats (avg 121 vs actual 59). Only Axis My India remotely accurate. Biggest polling failure in Tamil Nadu history confirms digital mobilization challenges traditional polling", color: "#F44336" },
+  { title: "Stalin's Historic Defeat Triggers Political Realignment", desc: "M. K. Stalin lost his Kolathur constituency to TVK's V.S. Babu by 8,795 votes, becoming second incumbent Chief Minister in TN history to lose own seat. Resigned May 5. Son Udhayanidhi now Leader of Opposition, led walkout during floor test", color: "#E53935" },
+  { title: "AIADMK Civil War: Historic Split Over TVK Support", desc: "25 MLAs from AIADMK led by Thondamuthur MLA S. P. Velumani rebel against Palaniswami to support Vijay in floor test. Confirms yet another factional split within AIADMK. Party now divided between 22 loyalists and 25 rebels backing TVK government", color: "#FF5722" },
+  { title: "Record Turnout Drives Change Wave: 84.69% Participation Fuels Anti-Establishment Victory", desc: "Recorded highest voter turnout in state's history at 84.69%, up 11.06% from 2021. Youth-driven participation especially strong. TVK pulled youth, women, urban and first-time voters irrespective of caste or religious affiliations. Democratic participation drives historic upset", color: "#9C27B0" },
+  { title: "Left-Congress Coalition Switch: Strategic Realignment for Power", desc: "INC left 19-year DMK alliance to join TVK government. CPI, CPI(M), VCK and IUML extended support to TVK while maintaining SPA membership. Outside support model allows coalition formation while preserving traditional alliances", color: "#795548" },
+  { title: "Constitutional Crisis Averted: Supreme Court Intervention Saves Floor Test", desc: "Supreme Court stays Madras High Court order restraining TVK Tirupattur MLA R. Sreenivasa Sethupathy from participating in floor test voting. Constitutional crisis averted as Justices Vikram Nath, Sandeep Mehta and Vijay Bishnoi enable democratic process", color: "#4CAF50" },
+  { title: "Celebrity Politics Vindicated: MGR Legacy Continues Through Vijay", desc: "TVK becomes first party led by actor-turned politician to emerge as largest party in debut Assembly election since M. G. Ramachandran in 1977. Ended 59-year streak of Dravidian party dominance. Star power breaks traditional duopoly", color: "#607D8B" },
+  { title: "AMMK MLA Expelled: Cross-Party Support for TVK Government", desc: "AMMK expels MLA Kamaraj for supporting TVK government in floor test. Kamaraj assures support to CM Vijay for five years. Cross-party support demonstrates broad appeal of TVK's change narrative beyond traditional political boundaries", color: "#FF9800" },
+  { title: "Foreign Nationals Election Controversy: Investigation Ordered", desc: "Around two dozen foreign nationals arrested for allegedly casting fraudulent votes using fake Indian identity documents. Election Commission ordered probe into suspected electoral fraud. High international attention on election following Vijay's political entry", color: "#F44336" },
+  { title: "Anti-Incumbency Wave Against DMK: Dravidian Fatigue Factor", desc: "Political critics cite anti-incumbency against DMK government and perceived fatigue over Dravidian tenures as major factors in TVK success. TVK's appeal attributed more to promise of change rather than meticulous ideology. Fresh corruption-free alternative narrative resonated", color: "#2196F3" }
 ];
 
 export const SATISFACTION_DATA = [
@@ -244,7 +254,7 @@ export const SATISFACTION_DATA = [
   { label: "Coalition Government Stability", pct: 86.3, color: "#2196F3" },
   { label: "AIADMK Split Support TVK", pct: 79.2, color: "#FF5722" },
   { label: "Digital Campaign Strategy Success", pct: 91.5, color: "#9C27B0" },
-  { label: "Youth (18-35) Supporting TVK", pct: 82.1, color: "#FFC107" },
+  { label: "Youth (18-39) Supporting TVK", pct: 82.1, color: "#FFC107" },
   { label: "Chennai Clean Sweep Satisfaction", pct: 96.2, color: "#FFC107" },
   { label: "Breaking Dravidian Duopoly Support", pct: 84.7, color: "#2196F3" },
   { label: "Left-Congress Coalition Switch Approval", pct: 74.8, color: "#FF5722" },
@@ -256,5 +266,7 @@ export const SATISFACTION_DATA = [
   { label: "TVK Urban Performance (Cities)", pct: 91.2, color: "#FFC107" },
   { label: "Assembly Speaker Role Effectiveness", pct: 78.6, color: "#2196F3" },
   { label: "DMK Opposition Role Satisfaction", pct: 32.4, color: "#E53935" },
-  { label: "New Political Era Optimism", pct: 83.7, color: "#4CAF50" }
+  { label: "New Political Era Optimism", pct: 83.7, color: "#4CAF50" },
+  { label: "Supreme Court Floor Test Intervention Support", pct: 77.4, color: "#4CAF50" },
+  { label: "AIADMK Rebel MLA Support Approval", pct: 73.6, color: "#FF5722" }
 ];
